@@ -6,7 +6,7 @@ evolutionary algorithm designed for molecular properties optimization. It can op
 function. It can also maximize the
 [diversity of generated molecules](https://jcheminf.biomedcentral.com/articles/10.1186/s13321-021-00554-8).
 
-[EvoMol-RL] is a significant extension of the EvoMol evolutionary algorithm that integrates reinforcement learning to guide molecular mutations based on local structural context.
+EvoMol-RL is a significant extension of the EvoMol evolutionary algorithm that integrates reinforcement learning to guide molecular mutations based on local structural context.
 ---
 
 ## Installation
