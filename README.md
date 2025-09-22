@@ -1,4 +1,4 @@
-# EvoMol and Emomol-RL
+# EvoMol and Evomol-RL
 
 
 [EvoMol](https://jcheminf.biomedcentral.com/articles/10.1186/s13321-020-00458-z#citeas) is a flexible and interpretable
