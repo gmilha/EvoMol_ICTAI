@@ -1,0 +1,3530 @@
+{
+  "eps_0.1": {
+    "greedy": {
+      "greedy_param_0.001": {
+        "ecfp0": [
+          {
+            "Pct_discarded_sillywalks": 0.24844755244755246,
+            "Pct_discarded_tabu": 0.6123916083916084,
+            "Pct_realism": 0.7515524475524475,
+            "Pct_novelty": 0.38760839160839156,
+            "run_id": 1
+          },
+          {
+            "Pct_discarded_sillywalks": 0.2620934904175037,
+            "Pct_discarded_tabu": 0.602855746783213,
+            "Pct_realism": 0.7379065095824964,
+            "Pct_novelty": 0.39714425321678704,
+            "run_id": 2
+          },
+          {
+            "Pct_discarded_sillywalks": 0.2555126414112362,
+            "Pct_discarded_tabu": 0.6082121237023037,
+            "Pct_realism": 0.7444873585887638,
+            "Pct_novelty": 0.3917878762976963,
+            "run_id": 3
+          },
+          {
+            "Pct_discarded_sillywalks": 0.24857774095553714,
+            "Pct_discarded_tabu": 0.6140292736813036,
+            "Pct_realism": 0.7514222590444628,
+            "Pct_novelty": 0.38597072631869644,
+            "run_id": 4
+          },
+          {
+            "Pct_discarded_sillywalks": 0.24958517699115043,
+            "Pct_discarded_tabu": 0.6128318584070797,
+            "Pct_realism": 0.7504148230088495,
+            "Pct_novelty": 0.38716814159292035,
+            "run_id": 5
+          },
+          {
+            "Pct_discarded_sillywalks": 0.23571207037527842,
+            "Pct_discarded_tabu": 0.6240166915724477,
+            "Pct_realism": 0.7642879296247216,
+            "Pct_novelty": 0.37598330842755234,
+            "run_id": 6
+          },
+          {
+            "Pct_discarded_sillywalks": 0.2592723227609409,
+            "Pct_discarded_tabu": 0.6057465339012942,
+            "Pct_realism": 0.7407276772390591,
+            "Pct_novelty": 0.3942534660987058,
+            "run_id": 7
+          },
+          {
+            "Pct_discarded_sillywalks": 0.2376855177790772,
+            "Pct_discarded_tabu": 0.623785258819926,
+            "Pct_realism": 0.7623144822209228,
+            "Pct_novelty": 0.37621474118007403,
+            "run_id": 8
+          },
+          {
+            "Pct_discarded_sillywalks": 0.239666445035461,
+            "Pct_discarded_tabu": 0.6225066489361702,
+            "Pct_realism": 0.760333554964539,
+            "Pct_novelty": 0.37749335106382975,
+            "run_id": 9
+          },
+          {
+            "Pct_discarded_sillywalks": 0.2467571726942948,
+            "Pct_discarded_tabu": 0.6165219303066946,
+            "Pct_realism": 0.7532428273057052,
+            "Pct_novelty": 0.38347806969330545,
+            "run_id": 10
+          }
+        ],
+        "ecfp2": [
+          {
+            "Pct_discarded_sillywalks": 0.19341289612421064,
+            "Pct_discarded_tabu": 0.6624761021957013,
+            "Pct_realism": 0.8065871038757894,
+            "Pct_novelty": 0.3375238978042987,
+            "run_id": 1
+          },
+          {
+            "Pct_discarded_sillywalks": 0.1855534818616587,
+            "Pct_discarded_tabu": 0.6693689490260119,
+            "Pct_realism": 0.8144465181383413,
+            "Pct_novelty": 0.33063105097398815,
+            "run_id": 2
+          },
+          {
+            "Pct_discarded_sillywalks": 0.2017993753760637,
+            "Pct_discarded_tabu": 0.6556545657717544,
+            "Pct_realism": 0.7982006246239363,
+            "Pct_novelty": 0.3443454342282456,
+            "run_id": 3
+          },
+          {
+            "Pct_discarded_sillywalks": 0.1927456647398844,
+            "Pct_discarded_tabu": 0.6634682080924855,
+            "Pct_realism": 0.8072543352601156,
+            "Pct_novelty": 0.3365317919075145,
+            "run_id": 4
+          },
+          {
+            "Pct_discarded_sillywalks": 0.1951507472571774,
+            "Pct_discarded_tabu": 0.6615889653583666,
+            "Pct_realism": 0.8048492527428226,
+            "Pct_novelty": 0.33841103464163336,
+            "run_id": 5
+          },
+          {
+            "Pct_discarded_sillywalks": 0.190252937431267,
+            "Pct_discarded_tabu": 0.6657695201713261,
+            "Pct_realism": 0.809747062568733,
+            "Pct_novelty": 0.33423047982867393,
+            "run_id": 6
+          },
+          {
+            "Pct_discarded_sillywalks": 0.18847284047598267,
+            "Pct_discarded_tabu": 0.666783043845102,
+            "Pct_realism": 0.8115271595240173,
+            "Pct_novelty": 0.333216956154898,
+            "run_id": 7
+          },
+          {
+            "Pct_discarded_sillywalks": 0.17544683473718192,
+            "Pct_discarded_tabu": 0.678543127989904,
+            "Pct_realism": 0.8245531652628181,
+            "Pct_novelty": 0.321456872010096,
+            "run_id": 8
+          },
+          {
+            "Pct_discarded_sillywalks": 0.19802433786685755,
+            "Pct_discarded_tabu": 0.6595275590551181,
+            "Pct_realism": 0.8019756621331424,
+            "Pct_novelty": 0.34047244094488194,
+            "run_id": 9
+          },
+          {
+            "Pct_discarded_sillywalks": 0.20629568765229217,
+            "Pct_discarded_tabu": 0.6527455091516972,
+            "Pct_realism": 0.7937043123477079,
+            "Pct_novelty": 0.34725449084830284,
+            "run_id": 10
+          }
+        ]
+      },
+      "greedy_param_0.01": {
+        "ecfp0": [
+          {
+            "Pct_discarded_sillywalks": 0.23417561058057973,
+            "Pct_discarded_tabu": 0.6256795966083551,
+            "Pct_realism": 0.7658243894194203,
+            "Pct_novelty": 0.37432040339164485,
+            "run_id": 1
+          },
+          {
+            "Pct_discarded_sillywalks": 0.23043883692672865,
+            "Pct_discarded_tabu": 0.6289807567323179,
+            "Pct_realism": 0.7695611630732714,
+            "Pct_novelty": 0.3710192432676821,
+            "run_id": 2
+          },
+          {
+            "Pct_discarded_sillywalks": 0.22924065618129544,
+            "Pct_discarded_tabu": 0.6305315970460567,
+            "Pct_realism": 0.7707593438187046,
+            "Pct_novelty": 0.36946840295394334,
+            "run_id": 3
+          },
+          {
+            "Pct_discarded_sillywalks": 0.21370714733899948,
+            "Pct_discarded_tabu": 0.6444013461867549,
+            "Pct_realism": 0.7862928526610005,
+            "Pct_novelty": 0.35559865381324507,
+            "run_id": 4
+          },
+          {
+            "Pct_discarded_sillywalks": 0.22500211071398418,
+            "Pct_discarded_tabu": 0.6349871950018293,
+            "Pct_realism": 0.7749978892860159,
+            "Pct_novelty": 0.3650128049981707,
+            "run_id": 5
+          },
+          {
+            "Pct_discarded_sillywalks": 0.22317188983855651,
+            "Pct_discarded_tabu": 0.6378693927713536,
+            "Pct_realism": 0.7768281101614435,
+            "Pct_novelty": 0.36213060722864643,
+            "run_id": 6
+          },
+          {
+            "Pct_discarded_sillywalks": 0.21249315700002883,
+            "Pct_discarded_tabu": 0.6441640014982568,
+            "Pct_realism": 0.7875068429999712,
+            "Pct_novelty": 0.3558359985017432,
+            "run_id": 7
+          },
+          {
+            "Pct_discarded_sillywalks": 0.21569971719941725,
+            "Pct_discarded_tabu": 0.6421858485445768,
+            "Pct_realism": 0.7843002828005827,
+            "Pct_novelty": 0.35781415145542317,
+            "run_id": 8
+          },
+          {
+            "Pct_discarded_sillywalks": 0.23825437936892527,
+            "Pct_discarded_tabu": 0.6231932492271702,
+            "Pct_realism": 0.7617456206310748,
+            "Pct_novelty": 0.37680675077282977,
+            "run_id": 9
+          },
+          {
+            "Pct_discarded_sillywalks": 0.22640446272609455,
+            "Pct_discarded_tabu": 0.6334310024229447,
+            "Pct_realism": 0.7735955372739054,
+            "Pct_novelty": 0.3665689975770553,
+            "run_id": 10
+          }
+        ],
+        "ecfp2": [
+          {
+            "Pct_discarded_sillywalks": 0.17624509861298063,
+            "Pct_discarded_tabu": 0.6781763914086733,
+            "Pct_realism": 0.8237549013870193,
+            "Pct_novelty": 0.32182360859132675,
+            "run_id": 1
+          },
+          {
+            "Pct_discarded_sillywalks": 0.18719641662546174,
+            "Pct_discarded_tabu": 0.6681015677263605,
+            "Pct_realism": 0.8128035833745383,
+            "Pct_novelty": 0.33189843227363947,
+            "run_id": 2
+          },
+          {
+            "Pct_discarded_sillywalks": 0.17161123059246383,
+            "Pct_discarded_tabu": 0.6818195209616121,
+            "Pct_realism": 0.8283887694075361,
+            "Pct_novelty": 0.31818047903838786,
+            "run_id": 3
+          },
+          {
+            "Pct_discarded_sillywalks": 0.16672607378363927,
+            "Pct_discarded_tabu": 0.6854987227469851,
+            "Pct_realism": 0.8332739262163608,
+            "Pct_novelty": 0.3145012772530149,
+            "run_id": 4
+          },
+          {
+            "Pct_discarded_sillywalks": 0.1800851163061855,
+            "Pct_discarded_tabu": 0.6748965195592608,
+            "Pct_realism": 0.8199148836938145,
+            "Pct_novelty": 0.3251034804407392,
+            "run_id": 5
+          },
+          {
+            "Pct_discarded_sillywalks": 0.16504277566539924,
+            "Pct_discarded_tabu": 0.6871732414448669,
+            "Pct_realism": 0.8349572243346007,
+            "Pct_novelty": 0.3128267585551331,
+            "run_id": 6
+          },
+          {
+            "Pct_discarded_sillywalks": 0.1726587033721715,
+            "Pct_discarded_tabu": 0.6813312593549145,
+            "Pct_realism": 0.8273412966278285,
+            "Pct_novelty": 0.31866874064508555,
+            "run_id": 7
+          },
+          {
+            "Pct_discarded_sillywalks": 0.17068645640074212,
+            "Pct_discarded_tabu": 0.6828047236210502,
+            "Pct_realism": 0.8293135435992579,
+            "Pct_novelty": 0.31719527637894984,
+            "run_id": 8
+          },
+          {
+            "Pct_discarded_sillywalks": 0.16623238185479094,
+            "Pct_discarded_tabu": 0.6864562359350942,
+            "Pct_realism": 0.833767618145209,
+            "Pct_novelty": 0.3135437640649058,
+            "run_id": 9
+          },
+          {
+            "Pct_discarded_sillywalks": 0.17799785089884704,
+            "Pct_discarded_tabu": 0.6775186594255511,
+            "Pct_realism": 0.822002149101153,
+            "Pct_novelty": 0.3224813405744489,
+            "run_id": 10
+          }
+        ]
+      },
+      "greedy_param_0.1": {
+        "ecfp0": [
+          {
+            "Pct_discarded_sillywalks": 0.22147155671624844,
+            "Pct_discarded_tabu": 0.6373055524014988,
+            "Pct_realism": 0.7785284432837516,
+            "Pct_novelty": 0.3626944475985012,
+            "run_id": 1
+          },
+          {
+            "Pct_discarded_sillywalks": 0.2015357319449696,
+            "Pct_discarded_tabu": 0.6537622524068526,
+            "Pct_realism": 0.7984642680550305,
+            "Pct_novelty": 0.3462377475931474,
+            "run_id": 2
+          },
+          {
+            "Pct_discarded_sillywalks": 0.20741274877415633,
+            "Pct_discarded_tabu": 0.6490914335160081,
+            "Pct_realism": 0.7925872512258436,
+            "Pct_novelty": 0.35090856648399193,
+            "run_id": 3
+          },
+          {
+            "Pct_discarded_sillywalks": 0.19538827902654354,
+            "Pct_discarded_tabu": 0.6601324272521345,
+            "Pct_realism": 0.8046117209734565,
+            "Pct_novelty": 0.3398675727478655,
+            "run_id": 4
+          },
+          {
+            "Pct_discarded_sillywalks": 0.23440285204991088,
+            "Pct_discarded_tabu": 0.6270331996434938,
+            "Pct_realism": 0.7655971479500892,
+            "Pct_novelty": 0.3729668003565062,
+            "run_id": 5
+          },
+          {
+            "Pct_discarded_sillywalks": 0.2090139053511029,
+            "Pct_discarded_tabu": 0.6471625567344107,
+            "Pct_realism": 0.7909860946488971,
+            "Pct_novelty": 0.3528374432655893,
+            "run_id": 6
+          },
+          {
+            "Pct_discarded_sillywalks": 0.21911989579203714,
+            "Pct_discarded_tabu": 0.6400011326952484,
+            "Pct_realism": 0.7808801042079628,
+            "Pct_novelty": 0.3599988673047516,
+            "run_id": 7
+          },
+          {
+            "Pct_discarded_sillywalks": 0.21363920988216542,
+            "Pct_discarded_tabu": 0.6447600614789093,
+            "Pct_realism": 0.7863607901178346,
+            "Pct_novelty": 0.3552399385210907,
+            "run_id": 8
+          },
+          {
+            "Pct_discarded_sillywalks": 0.2160696446410732,
+            "Pct_discarded_tabu": 0.6419294990723562,
+            "Pct_realism": 0.7839303553589267,
+            "Pct_novelty": 0.3580705009276438,
+            "run_id": 9
+          },
+          {
+            "Pct_discarded_sillywalks": 0.2147736976942784,
+            "Pct_discarded_tabu": 0.6436094506120126,
+            "Pct_realism": 0.7852263023057215,
+            "Pct_novelty": 0.3563905493879874,
+            "run_id": 10
+          }
+        ],
+        "ecfp2": [
+          {
+            "Pct_discarded_sillywalks": 0.19403962199703972,
+            "Pct_discarded_tabu": 0.664351588295571,
+            "Pct_realism": 0.8059603780029603,
+            "Pct_novelty": 0.33564841170442905,
+            "run_id": 1
+          },
+          {
+            "Pct_discarded_sillywalks": 0.17731178098150574,
+            "Pct_discarded_tabu": 0.6777923401776613,
+            "Pct_realism": 0.8226882190184943,
+            "Pct_novelty": 0.3222076598223387,
+            "run_id": 2
+          },
+          {
+            "Pct_discarded_sillywalks": 0.17692464536424807,
+            "Pct_discarded_tabu": 0.6781625935743206,
+            "Pct_realism": 0.8230753546357519,
+            "Pct_novelty": 0.3218374064256794,
+            "run_id": 3
+          },
+          {
+            "Pct_discarded_sillywalks": 0.1754380815404033,
+            "Pct_discarded_tabu": 0.6785640905221756,
+            "Pct_realism": 0.8245619184595967,
+            "Pct_novelty": 0.3214359094778244,
+            "run_id": 4
+          },
+          {
+            "Pct_discarded_sillywalks": 0.1875450898912071,
+            "Pct_discarded_tabu": 0.6688886965053531,
+            "Pct_realism": 0.8124549101087929,
+            "Pct_novelty": 0.3311113034946469,
+            "run_id": 5
+          },
+          {
+            "Pct_discarded_sillywalks": 0.15267725757530257,
+            "Pct_discarded_tabu": 0.6979188564221148,
+            "Pct_realism": 0.8473227424246974,
+            "Pct_novelty": 0.3020811435778852,
+            "run_id": 6
+          },
+          {
+            "Pct_discarded_sillywalks": 0.1788114453411592,
+            "Pct_discarded_tabu": 0.6751870873074102,
+            "Pct_realism": 0.8211885546588408,
+            "Pct_novelty": 0.32481291269258983,
+            "run_id": 7
+          },
+          {
+            "Pct_discarded_sillywalks": 0.1618267189042079,
+            "Pct_discarded_tabu": 0.6893860095104226,
+            "Pct_realism": 0.838173281095792,
+            "Pct_novelty": 0.3106139904895774,
+            "run_id": 8
+          },
+          {
+            "Pct_discarded_sillywalks": 0.16206855368446196,
+            "Pct_discarded_tabu": 0.6893885106891198,
+            "Pct_realism": 0.8379314463155381,
+            "Pct_novelty": 0.31061148931088023,
+            "run_id": 9
+          },
+          {
+            "Pct_discarded_sillywalks": 0.17005942225098547,
+            "Pct_discarded_tabu": 0.6835912219803495,
+            "Pct_realism": 0.8299405777490145,
+            "Pct_novelty": 0.3164087780196505,
+            "run_id": 10
+          }
+        ]
+      }
+    },
+    "power_law": {
+      "power_law_param_0.25": {
+        "ecfp0": [
+          {
+            "Pct_discarded_sillywalks": 0.22726757369614511,
+            "Pct_discarded_tabu": 0.6317176870748299,
+            "Pct_realism": 0.7727324263038549,
+            "Pct_novelty": 0.3682823129251701,
+            "run_id": 1
+          },
+          {
+            "Pct_discarded_sillywalks": 0.21846233259728715,
+            "Pct_discarded_tabu": 0.6388689742192653,
+            "Pct_realism": 0.7815376674027128,
+            "Pct_novelty": 0.36113102578073475,
+            "run_id": 2
+          },
+          {
+            "Pct_discarded_sillywalks": 0.24445000834585212,
+            "Pct_discarded_tabu": 0.6171479441384299,
+            "Pct_realism": 0.7555499916541479,
+            "Pct_novelty": 0.3828520558615701,
+            "run_id": 3
+          },
+          {
+            "Pct_discarded_sillywalks": 0.23598295662970173,
+            "Pct_discarded_tabu": 0.6236349784136122,
+            "Pct_realism": 0.7640170433702983,
+            "Pct_novelty": 0.37636502158638785,
+            "run_id": 4
+          },
+          {
+            "Pct_discarded_sillywalks": 0.23985890652557318,
+            "Pct_discarded_tabu": 0.620867276951933,
+            "Pct_realism": 0.7601410934744268,
+            "Pct_novelty": 0.379132723048067,
+            "run_id": 5
+          },
+          {
+            "Pct_discarded_sillywalks": 0.22785345629917927,
+            "Pct_discarded_tabu": 0.6318357447048538,
+            "Pct_realism": 0.7721465437008207,
+            "Pct_novelty": 0.3681642552951462,
+            "run_id": 6
+          },
+          {
+            "Pct_discarded_sillywalks": 0.2380485069395766,
+            "Pct_discarded_tabu": 0.622458993410907,
+            "Pct_realism": 0.7619514930604234,
+            "Pct_novelty": 0.37754100658909295,
+            "run_id": 7
+          },
+          {
+            "Pct_discarded_sillywalks": 0.22916130508135313,
+            "Pct_discarded_tabu": 0.6285779645992394,
+            "Pct_realism": 0.7708386949186469,
+            "Pct_novelty": 0.3714220354007606,
+            "run_id": 8
+          },
+          {
+            "Pct_discarded_sillywalks": 0.23450210378681627,
+            "Pct_discarded_tabu": 0.6259467040673212,
+            "Pct_realism": 0.7654978962131838,
+            "Pct_novelty": 0.3740532959326788,
+            "run_id": 9
+          },
+          {
+            "Pct_discarded_sillywalks": 0.2318750879167253,
+            "Pct_discarded_tabu": 0.6281614854409903,
+            "Pct_realism": 0.7681249120832747,
+            "Pct_novelty": 0.37183851455900974,
+            "run_id": 10
+          }
+        ],
+        "ecfp2": [
+          {
+            "Pct_discarded_sillywalks": 0.1977949219874489,
+            "Pct_discarded_tabu": 0.6589901548736254,
+            "Pct_realism": 0.8022050780125511,
+            "Pct_novelty": 0.34100984512637456,
+            "run_id": 1
+          },
+          {
+            "Pct_discarded_sillywalks": 0.17707748248440594,
+            "Pct_discarded_tabu": 0.6758506518461584,
+            "Pct_realism": 0.8229225175155941,
+            "Pct_novelty": 0.32414934815384155,
+            "run_id": 2
+          },
+          {
+            "Pct_discarded_sillywalks": 0.19479915064428865,
+            "Pct_discarded_tabu": 0.6604904156607231,
+            "Pct_realism": 0.8052008493557113,
+            "Pct_novelty": 0.3395095843392769,
+            "run_id": 3
+          },
+          {
+            "Pct_discarded_sillywalks": 0.17448792869370167,
+            "Pct_discarded_tabu": 0.6786789445723393,
+            "Pct_realism": 0.8255120713062983,
+            "Pct_novelty": 0.32132105542766065,
+            "run_id": 4
+          },
+          {
+            "Pct_discarded_sillywalks": 0.18639591525324256,
+            "Pct_discarded_tabu": 0.6676154703914549,
+            "Pct_realism": 0.8136040847467574,
+            "Pct_novelty": 0.33238452960854514,
+            "run_id": 5
+          },
+          {
+            "Pct_discarded_sillywalks": 0.17992916174734355,
+            "Pct_discarded_tabu": 0.6732290436835892,
+            "Pct_realism": 0.8200708382526565,
+            "Pct_novelty": 0.32677095631641084,
+            "run_id": 6
+          },
+          {
+            "Pct_discarded_sillywalks": 0.1738912034985078,
+            "Pct_discarded_tabu": 0.679106462193068,
+            "Pct_realism": 0.8261087965014922,
+            "Pct_novelty": 0.32089353780693197,
+            "run_id": 7
+          },
+          {
+            "Pct_discarded_sillywalks": 0.17960043291309563,
+            "Pct_discarded_tabu": 0.6748764150115542,
+            "Pct_realism": 0.8203995670869044,
+            "Pct_novelty": 0.32512358498844585,
+            "run_id": 8
+          },
+          {
+            "Pct_discarded_sillywalks": 0.17696437576009255,
+            "Pct_discarded_tabu": 0.6754664372793878,
+            "Pct_realism": 0.8230356242399075,
+            "Pct_novelty": 0.3245335627206122,
+            "run_id": 9
+          },
+          {
+            "Pct_discarded_sillywalks": 0.19113052534135616,
+            "Pct_discarded_tabu": 0.6649502429993057,
+            "Pct_realism": 0.8088694746586438,
+            "Pct_novelty": 0.3350497570006943,
+            "run_id": 10
+          }
+        ]
+      },
+      "power_law_param_0.3": {
+        "ecfp0": [
+          {
+            "Pct_discarded_sillywalks": 0.20890718779900838,
+            "Pct_discarded_tabu": 0.6468439212502537,
+            "Pct_realism": 0.7910928122009916,
+            "Pct_novelty": 0.3531560787497463,
+            "run_id": 1
+          },
+          {
+            "Pct_discarded_sillywalks": 0.20685582601181046,
+            "Pct_discarded_tabu": 0.649834365548034,
+            "Pct_realism": 0.7931441739881895,
+            "Pct_novelty": 0.350165634451966,
+            "run_id": 2
+          },
+          {
+            "Pct_discarded_sillywalks": 0.263953926476129,
+            "Pct_discarded_tabu": 0.6021583508262016,
+            "Pct_realism": 0.736046073523871,
+            "Pct_novelty": 0.3978416491737984,
+            "run_id": 3
+          },
+          {
+            "Pct_discarded_sillywalks": 0.23531222023276635,
+            "Pct_discarded_tabu": 0.6255035810205909,
+            "Pct_realism": 0.7646877797672337,
+            "Pct_novelty": 0.3744964189794091,
+            "run_id": 4
+          },
+          {
+            "Pct_discarded_sillywalks": 0.2334490901514099,
+            "Pct_discarded_tabu": 0.628337269065148,
+            "Pct_realism": 0.7665509098485901,
+            "Pct_novelty": 0.371662730934852,
+            "run_id": 5
+          },
+          {
+            "Pct_discarded_sillywalks": 0.2184873949579832,
+            "Pct_discarded_tabu": 0.6397949010112519,
+            "Pct_realism": 0.7815126050420168,
+            "Pct_novelty": 0.3602050989887481,
+            "run_id": 6
+          },
+          {
+            "Pct_discarded_sillywalks": 0.20688172043010752,
+            "Pct_discarded_tabu": 0.6504659498207885,
+            "Pct_realism": 0.7931182795698924,
+            "Pct_novelty": 0.34953405017921146,
+            "run_id": 7
+          },
+          {
+            "Pct_discarded_sillywalks": 0.22427931355144137,
+            "Pct_discarded_tabu": 0.6355285033956096,
+            "Pct_realism": 0.7757206864485586,
+            "Pct_novelty": 0.3644714966043904,
+            "run_id": 8
+          },
+          {
+            "Pct_discarded_sillywalks": 0.24408942111300747,
+            "Pct_discarded_tabu": 0.6167146974063401,
+            "Pct_realism": 0.7559105788869925,
+            "Pct_novelty": 0.3832853025936599,
+            "run_id": 9
+          },
+          {
+            "Pct_discarded_sillywalks": 0.20898753174786425,
+            "Pct_discarded_tabu": 0.6474255368275225,
+            "Pct_realism": 0.7910124682521358,
+            "Pct_novelty": 0.35257446317247754,
+            "run_id": 10
+          }
+        ],
+        "ecfp2": [
+          {
+            "Pct_discarded_sillywalks": 0.1910115590315717,
+            "Pct_discarded_tabu": 0.6659382368163782,
+            "Pct_realism": 0.8089884409684283,
+            "Pct_novelty": 0.3340617631836218,
+            "run_id": 1
+          },
+          {
+            "Pct_discarded_sillywalks": 0.16548084904541682,
+            "Pct_discarded_tabu": 0.6870330843116329,
+            "Pct_realism": 0.8345191509545832,
+            "Pct_novelty": 0.3129669156883671,
+            "run_id": 2
+          },
+          {
+            "Pct_discarded_sillywalks": 0.19238748343225956,
+            "Pct_discarded_tabu": 0.6642655448625598,
+            "Pct_realism": 0.8076125165677405,
+            "Pct_novelty": 0.33573445513744016,
+            "run_id": 3
+          },
+          {
+            "Pct_discarded_sillywalks": 0.1759822263797942,
+            "Pct_discarded_tabu": 0.67858395696913,
+            "Pct_realism": 0.8240177736202058,
+            "Pct_novelty": 0.32141604303087,
+            "run_id": 4
+          },
+          {
+            "Pct_discarded_sillywalks": 0.17835383714118336,
+            "Pct_discarded_tabu": 0.6759226713532513,
+            "Pct_realism": 0.8216461628588166,
+            "Pct_novelty": 0.32407732864674865,
+            "run_id": 5
+          },
+          {
+            "Pct_discarded_sillywalks": 0.16626199218287338,
+            "Pct_discarded_tabu": 0.6864266256070117,
+            "Pct_realism": 0.8337380078171266,
+            "Pct_novelty": 0.31357337439298827,
+            "run_id": 6
+          },
+          {
+            "Pct_discarded_sillywalks": 0.1674805410044689,
+            "Pct_discarded_tabu": 0.6852821924294888,
+            "Pct_realism": 0.8325194589955311,
+            "Pct_novelty": 0.31471780757051115,
+            "run_id": 7
+          },
+          {
+            "Pct_discarded_sillywalks": 0.17089673511596987,
+            "Pct_discarded_tabu": 0.6821096173733195,
+            "Pct_realism": 0.8291032648840302,
+            "Pct_novelty": 0.31789038262668046,
+            "run_id": 8
+          },
+          {
+            "Pct_discarded_sillywalks": 0.16960952775967292,
+            "Pct_discarded_tabu": 0.683000533270131,
+            "Pct_realism": 0.830390472240327,
+            "Pct_novelty": 0.316999466729869,
+            "run_id": 9
+          },
+          {
+            "Pct_discarded_sillywalks": 0.16501017489014067,
+            "Pct_discarded_tabu": 0.6882649600377503,
+            "Pct_realism": 0.8349898251098593,
+            "Pct_novelty": 0.3117350399622497,
+            "run_id": 10
+          }
+        ]
+      },
+      "power_law_param_0.35": {
+        "ecfp0": [
+          {
+            "Pct_discarded_sillywalks": 0.21832922706697988,
+            "Pct_discarded_tabu": 0.6391451326419527,
+            "Pct_realism": 0.7816707729330201,
+            "Pct_novelty": 0.3608548673580473,
+            "run_id": 1
+          },
+          {
+            "Pct_discarded_sillywalks": 0.20552244392617547,
+            "Pct_discarded_tabu": 0.6512337681034235,
+            "Pct_realism": 0.7944775560738245,
+            "Pct_novelty": 0.3487662318965765,
+            "run_id": 2
+          },
+          {
+            "Pct_discarded_sillywalks": 0.22375244410439513,
+            "Pct_discarded_tabu": 0.6352687806398595,
+            "Pct_realism": 0.7762475558956049,
+            "Pct_novelty": 0.3647312193601405,
+            "run_id": 3
+          },
+          {
+            "Pct_discarded_sillywalks": 0.20292947350210483,
+            "Pct_discarded_tabu": 0.6536243584568364,
+            "Pct_realism": 0.7970705264978952,
+            "Pct_novelty": 0.3463756415431636,
+            "run_id": 4
+          },
+          {
+            "Pct_discarded_sillywalks": 0.23288435260325163,
+            "Pct_discarded_tabu": 0.6283778131013135,
+            "Pct_realism": 0.7671156473967484,
+            "Pct_novelty": 0.37162218689868654,
+            "run_id": 5
+          },
+          {
+            "Pct_discarded_sillywalks": 0.21138421733505822,
+            "Pct_discarded_tabu": 0.6455943653873796,
+            "Pct_realism": 0.7886157826649418,
+            "Pct_novelty": 0.3544056346126204,
+            "run_id": 6
+          },
+          {
+            "Pct_discarded_sillywalks": 0.22385749662314272,
+            "Pct_discarded_tabu": 0.6361436289959478,
+            "Pct_realism": 0.7761425033768573,
+            "Pct_novelty": 0.3638563710040522,
+            "run_id": 7
+          },
+          {
+            "Pct_discarded_sillywalks": 0.2141498452715555,
+            "Pct_discarded_tabu": 0.6446072168753372,
+            "Pct_realism": 0.7858501547284444,
+            "Pct_novelty": 0.3553927831246628,
+            "run_id": 8
+          },
+          {
+            "Pct_discarded_sillywalks": 0.2032004572081726,
+            "Pct_discarded_tabu": 0.6546363766252322,
+            "Pct_realism": 0.7967995427918274,
+            "Pct_novelty": 0.3453636233747678,
+            "run_id": 9
+          },
+          {
+            "Pct_discarded_sillywalks": 0.22671089187503543,
+            "Pct_discarded_tabu": 0.6322503827181494,
+            "Pct_realism": 0.7732891081249645,
+            "Pct_novelty": 0.3677496172818506,
+            "run_id": 10
+          }
+        ],
+        "ecfp2": [
+          {
+            "Pct_discarded_sillywalks": 0.17295469123564056,
+            "Pct_discarded_tabu": 0.681993119132311,
+            "Pct_realism": 0.8270453087643594,
+            "Pct_novelty": 0.318006880867689,
+            "run_id": 1
+          },
+          {
+            "Pct_discarded_sillywalks": 0.17514571068740298,
+            "Pct_discarded_tabu": 0.6791436019096154,
+            "Pct_realism": 0.824854289312597,
+            "Pct_novelty": 0.3208563980903846,
+            "run_id": 2
+          },
+          {
+            "Pct_discarded_sillywalks": 0.18121530820917325,
+            "Pct_discarded_tabu": 0.6734443470639789,
+            "Pct_realism": 0.8187846917908268,
+            "Pct_novelty": 0.32655565293602107,
+            "run_id": 3
+          },
+          {
+            "Pct_discarded_sillywalks": 0.16856829564650447,
+            "Pct_discarded_tabu": 0.6839937172154225,
+            "Pct_realism": 0.8314317043534956,
+            "Pct_novelty": 0.31600628278457754,
+            "run_id": 4
+          },
+          {
+            "Pct_discarded_sillywalks": 0.16810804407060775,
+            "Pct_discarded_tabu": 0.6845456699443194,
+            "Pct_realism": 0.8318919559293922,
+            "Pct_novelty": 0.3154543300556806,
+            "run_id": 5
+          },
+          {
+            "Pct_discarded_sillywalks": 0.16336898395721924,
+            "Pct_discarded_tabu": 0.6888294711824123,
+            "Pct_realism": 0.8366310160427808,
+            "Pct_novelty": 0.31117052881758767,
+            "run_id": 6
+          },
+          {
+            "Pct_discarded_sillywalks": 0.16265078272321828,
+            "Pct_discarded_tabu": 0.6884372474482924,
+            "Pct_realism": 0.8373492172767817,
+            "Pct_novelty": 0.3115627525517076,
+            "run_id": 7
+          },
+          {
+            "Pct_discarded_sillywalks": 0.18734695053441272,
+            "Pct_discarded_tabu": 0.6693267263979719,
+            "Pct_realism": 0.8126530494655873,
+            "Pct_novelty": 0.33067327360202814,
+            "run_id": 8
+          },
+          {
+            "Pct_discarded_sillywalks": 0.15924662613080232,
+            "Pct_discarded_tabu": 0.6931929408275248,
+            "Pct_realism": 0.8407533738691977,
+            "Pct_novelty": 0.3068070591724752,
+            "run_id": 9
+          },
+          {
+            "Pct_discarded_sillywalks": 0.16257459252441886,
+            "Pct_discarded_tabu": 0.6897247869845322,
+            "Pct_realism": 0.8374254074755811,
+            "Pct_novelty": 0.3102752130154678,
+            "run_id": 10
+          }
+        ]
+      },
+      "power_law_param_0.4": {
+        "ecfp0": [
+          {
+            "Pct_discarded_sillywalks": 0.21274775417082561,
+            "Pct_discarded_tabu": 0.6453728789391131,
+            "Pct_realism": 0.7872522458291744,
+            "Pct_novelty": 0.3546271210608869,
+            "run_id": 1
+          },
+          {
+            "Pct_discarded_sillywalks": 0.20759493670886076,
+            "Pct_discarded_tabu": 0.6476356758329695,
+            "Pct_realism": 0.7924050632911392,
+            "Pct_novelty": 0.35236432416703045,
+            "run_id": 2
+          },
+          {
+            "Pct_discarded_sillywalks": 0.24418636880179606,
+            "Pct_discarded_tabu": 0.6179217827545109,
+            "Pct_realism": 0.755813631198204,
+            "Pct_novelty": 0.38207821724548907,
+            "run_id": 3
+          },
+          {
+            "Pct_discarded_sillywalks": 0.2368406409971066,
+            "Pct_discarded_tabu": 0.6247496105052304,
+            "Pct_realism": 0.7631593590028933,
+            "Pct_novelty": 0.37525038949476963,
+            "run_id": 4
+          },
+          {
+            "Pct_discarded_sillywalks": 0.21663063268092853,
+            "Pct_discarded_tabu": 0.6418411470186618,
+            "Pct_realism": 0.7833693673190715,
+            "Pct_novelty": 0.3581588529813382,
+            "run_id": 5
+          },
+          {
+            "Pct_discarded_sillywalks": 0.22435288198132722,
+            "Pct_discarded_tabu": 0.636579638843853,
+            "Pct_realism": 0.7756471180186728,
+            "Pct_novelty": 0.36342036115614695,
+            "run_id": 6
+          },
+          {
+            "Pct_discarded_sillywalks": 0.20123972898947673,
+            "Pct_discarded_tabu": 0.6553265100187401,
+            "Pct_realism": 0.7987602710105233,
+            "Pct_novelty": 0.3446734899812599,
+            "run_id": 7
+          },
+          {
+            "Pct_discarded_sillywalks": 0.21711609423786546,
+            "Pct_discarded_tabu": 0.6416690320749361,
+            "Pct_realism": 0.7828839057621345,
+            "Pct_novelty": 0.3583309679250639,
+            "run_id": 8
+          },
+          {
+            "Pct_discarded_sillywalks": 0.20936265890288547,
+            "Pct_discarded_tabu": 0.6472283877662794,
+            "Pct_realism": 0.7906373410971146,
+            "Pct_novelty": 0.35277161223372056,
+            "run_id": 9
+          },
+          {
+            "Pct_discarded_sillywalks": 0.2428705648281198,
+            "Pct_discarded_tabu": 0.6196529236210898,
+            "Pct_realism": 0.7571294351718802,
+            "Pct_novelty": 0.3803470763789102,
+            "run_id": 10
+          }
+        ],
+        "ecfp2": [
+          {
+            "Pct_discarded_sillywalks": 0.1814134990605579,
+            "Pct_discarded_tabu": 0.6747795924266512,
+            "Pct_realism": 0.8185865009394421,
+            "Pct_novelty": 0.3252204075733488,
+            "run_id": 1
+          },
+          {
+            "Pct_discarded_sillywalks": 0.1766218585622443,
+            "Pct_discarded_tabu": 0.6779953243717124,
+            "Pct_realism": 0.8233781414377557,
+            "Pct_novelty": 0.3220046756282876,
+            "run_id": 2
+          },
+          {
+            "Pct_discarded_sillywalks": 0.19731520523190776,
+            "Pct_discarded_tabu": 0.6599833634512233,
+            "Pct_realism": 0.8026847947680922,
+            "Pct_novelty": 0.3400166365487767,
+            "run_id": 3
+          },
+          {
+            "Pct_discarded_sillywalks": 0.17193733865289837,
+            "Pct_discarded_tabu": 0.6821168739732457,
+            "Pct_realism": 0.8280626613471016,
+            "Pct_novelty": 0.3178831260267543,
+            "run_id": 4
+          },
+          {
+            "Pct_discarded_sillywalks": 0.1745229258599024,
+            "Pct_discarded_tabu": 0.6800900084748239,
+            "Pct_realism": 0.8254770741400976,
+            "Pct_novelty": 0.3199099915251761,
+            "run_id": 5
+          },
+          {
+            "Pct_discarded_sillywalks": 0.17798574236512454,
+            "Pct_discarded_tabu": 0.6760641886936368,
+            "Pct_realism": 0.8220142576348755,
+            "Pct_novelty": 0.3239358113063632,
+            "run_id": 6
+          },
+          {
+            "Pct_discarded_sillywalks": 0.16537913002139293,
+            "Pct_discarded_tabu": 0.68680175897314,
+            "Pct_realism": 0.8346208699786071,
+            "Pct_novelty": 0.31319824102686,
+            "run_id": 7
+          },
+          {
+            "Pct_discarded_sillywalks": 0.17845058919612647,
+            "Pct_discarded_tabu": 0.6764379885660949,
+            "Pct_realism": 0.8215494108038736,
+            "Pct_novelty": 0.32356201143390506,
+            "run_id": 8
+          },
+          {
+            "Pct_discarded_sillywalks": 0.16183467801519047,
+            "Pct_discarded_tabu": 0.6911369211218489,
+            "Pct_realism": 0.8381653219848095,
+            "Pct_novelty": 0.3088630788781511,
+            "run_id": 9
+          },
+          {
+            "Pct_discarded_sillywalks": 0.1702754455737222,
+            "Pct_discarded_tabu": 0.6831639416703491,
+            "Pct_realism": 0.8297245544262778,
+            "Pct_novelty": 0.3168360583296509,
+            "run_id": 10
+          }
+        ]
+      }
+    },
+    "constant": {
+      "constant_param_0.1": {
+        "ecfp0": [
+          {
+            "Pct_discarded_sillywalks": 0.22401834498768508,
+            "Pct_discarded_tabu": 0.6351385782634544,
+            "Pct_realism": 0.7759816550123149,
+            "Pct_novelty": 0.36486142173654557,
+            "run_id": 1
+          },
+          {
+            "Pct_discarded_sillywalks": 0.22473911936879612,
+            "Pct_discarded_tabu": 0.6345691581120444,
+            "Pct_realism": 0.7752608806312039,
+            "Pct_novelty": 0.3654308418879556,
+            "run_id": 2
+          },
+          {
+            "Pct_discarded_sillywalks": 0.21424284856971396,
+            "Pct_discarded_tabu": 0.6435858600291486,
+            "Pct_realism": 0.785757151430286,
+            "Pct_novelty": 0.35641413997085136,
+            "run_id": 3
+          },
+          {
+            "Pct_discarded_sillywalks": 0.23080620988038344,
+            "Pct_discarded_tabu": 0.6285100246019851,
+            "Pct_realism": 0.7691937901196165,
+            "Pct_novelty": 0.37148997539801487,
+            "run_id": 4
+          },
+          {
+            "Pct_discarded_sillywalks": 0.22719855961289598,
+            "Pct_discarded_tabu": 0.632841951274405,
+            "Pct_realism": 0.772801440387104,
+            "Pct_novelty": 0.367158048725595,
+            "run_id": 5
+          },
+          {
+            "Pct_discarded_sillywalks": 0.24747767918843463,
+            "Pct_discarded_tabu": 0.6150040080714266,
+            "Pct_realism": 0.7525223208115653,
+            "Pct_novelty": 0.38499599192857337,
+            "run_id": 6
+          },
+          {
+            "Pct_discarded_sillywalks": 0.22034189995410738,
+            "Pct_discarded_tabu": 0.6369607618173474,
+            "Pct_realism": 0.7796581000458926,
+            "Pct_novelty": 0.3630392381826526,
+            "run_id": 7
+          },
+          {
+            "Pct_discarded_sillywalks": 0.213937719023334,
+            "Pct_discarded_tabu": 0.6443203510071512,
+            "Pct_realism": 0.786062280976666,
+            "Pct_novelty": 0.35567964899284876,
+            "run_id": 8
+          },
+          {
+            "Pct_discarded_sillywalks": 0.21275673801889244,
+            "Pct_discarded_tabu": 0.6435277464829419,
+            "Pct_realism": 0.7872432619811076,
+            "Pct_novelty": 0.35647225351705814,
+            "run_id": 9
+          },
+          {
+            "Pct_discarded_sillywalks": 0.21843995894628807,
+            "Pct_discarded_tabu": 0.6397251682061809,
+            "Pct_realism": 0.7815600410537119,
+            "Pct_novelty": 0.36027483179381914,
+            "run_id": 10
+          }
+        ],
+        "ecfp2": [
+          {
+            "Pct_discarded_sillywalks": 0.17294298193837798,
+            "Pct_discarded_tabu": 0.6802325581395349,
+            "Pct_realism": 0.827057018061622,
+            "Pct_novelty": 0.31976744186046513,
+            "run_id": 1
+          },
+          {
+            "Pct_discarded_sillywalks": 0.17003619669815484,
+            "Pct_discarded_tabu": 0.6835584591389305,
+            "Pct_realism": 0.8299638033018452,
+            "Pct_novelty": 0.31644154086106946,
+            "run_id": 2
+          },
+          {
+            "Pct_discarded_sillywalks": 0.18868141669304025,
+            "Pct_discarded_tabu": 0.6681819489599218,
+            "Pct_realism": 0.8113185833069597,
+            "Pct_novelty": 0.3318180510400782,
+            "run_id": 3
+          },
+          {
+            "Pct_discarded_sillywalks": 0.1766827980642323,
+            "Pct_discarded_tabu": 0.6774013785012465,
+            "Pct_realism": 0.8233172019357677,
+            "Pct_novelty": 0.3225986214987535,
+            "run_id": 4
+          },
+          {
+            "Pct_discarded_sillywalks": 0.1524578841476232,
+            "Pct_discarded_tabu": 0.6981472027867031,
+            "Pct_realism": 0.8475421158523768,
+            "Pct_novelty": 0.30185279721329694,
+            "run_id": 5
+          },
+          {
+            "Pct_discarded_sillywalks": 0.17756330125875752,
+            "Pct_discarded_tabu": 0.6778104014651589,
+            "Pct_realism": 0.8224366987412425,
+            "Pct_novelty": 0.3221895985348411,
+            "run_id": 6
+          },
+          {
+            "Pct_discarded_sillywalks": 0.1668642912195411,
+            "Pct_discarded_tabu": 0.6856583861979012,
+            "Pct_realism": 0.833135708780459,
+            "Pct_novelty": 0.3143416138020988,
+            "run_id": 7
+          },
+          {
+            "Pct_discarded_sillywalks": 0.16616053352387758,
+            "Pct_discarded_tabu": 0.6857210908657854,
+            "Pct_realism": 0.8338394664761224,
+            "Pct_novelty": 0.31427890913421463,
+            "run_id": 8
+          },
+          {
+            "Pct_discarded_sillywalks": 0.2008334037221612,
+            "Pct_discarded_tabu": 0.6591491398485232,
+            "Pct_realism": 0.7991665962778388,
+            "Pct_novelty": 0.3408508601514768,
+            "run_id": 9
+          },
+          {
+            "Pct_discarded_sillywalks": 0.17808659095553675,
+            "Pct_discarded_tabu": 0.6766706565848247,
+            "Pct_realism": 0.8219134090444633,
+            "Pct_novelty": 0.3233293434151753,
+            "run_id": 10
+          }
+        ]
+      }
+    }
+  },
+  "eps_0.2": {
+    "greedy": {
+      "greedy_param_0.001": {
+        "ecfp0": [
+          {
+            "Pct_discarded_sillywalks": 0.30008244023083264,
+            "Pct_discarded_tabu": 0.5676142860941946,
+            "Pct_realism": 0.6999175597691674,
+            "Pct_novelty": 0.4323857139058054,
+            "run_id": 1
+          },
+          {
+            "Pct_discarded_sillywalks": 0.3064327795764556,
+            "Pct_discarded_tabu": 0.5615413194628736,
+            "Pct_realism": 0.6935672204235444,
+            "Pct_novelty": 0.43845868053712644,
+            "run_id": 2
+          },
+          {
+            "Pct_discarded_sillywalks": 0.28660198408372395,
+            "Pct_discarded_tabu": 0.5778098768123842,
+            "Pct_realism": 0.713398015916276,
+            "Pct_novelty": 0.42219012318761584,
+            "run_id": 3
+          },
+          {
+            "Pct_discarded_sillywalks": 0.30775124167811474,
+            "Pct_discarded_tabu": 0.5608158089400824,
+            "Pct_realism": 0.6922487583218853,
+            "Pct_novelty": 0.4391841910599176,
+            "run_id": 4
+          },
+          {
+            "Pct_discarded_sillywalks": 0.29763541750923456,
+            "Pct_discarded_tabu": 0.5682277764296692,
+            "Pct_realism": 0.7023645824907654,
+            "Pct_novelty": 0.43177222357033085,
+            "run_id": 5
+          },
+          {
+            "Pct_discarded_sillywalks": 0.2734464540295754,
+            "Pct_discarded_tabu": 0.5874821792972353,
+            "Pct_realism": 0.7265535459704247,
+            "Pct_novelty": 0.41251782070276466,
+            "run_id": 6
+          },
+          {
+            "Pct_discarded_sillywalks": 0.2994365441373759,
+            "Pct_discarded_tabu": 0.5670780788838208,
+            "Pct_realism": 0.7005634558626241,
+            "Pct_novelty": 0.4329219211161792,
+            "run_id": 7
+          },
+          {
+            "Pct_discarded_sillywalks": 0.2901553004726536,
+            "Pct_discarded_tabu": 0.5754760297096556,
+            "Pct_realism": 0.7098446995273464,
+            "Pct_novelty": 0.4245239702903444,
+            "run_id": 8
+          },
+          {
+            "Pct_discarded_sillywalks": 0.2911190005149191,
+            "Pct_discarded_tabu": 0.574053497384753,
+            "Pct_realism": 0.7088809994850809,
+            "Pct_novelty": 0.425946502615247,
+            "run_id": 9
+          },
+          {
+            "Pct_discarded_sillywalks": 0.2919264717790914,
+            "Pct_discarded_tabu": 0.5737846519286312,
+            "Pct_realism": 0.7080735282209085,
+            "Pct_novelty": 0.42621534807136885,
+            "run_id": 10
+          }
+        ],
+        "ecfp2": [
+          {
+            "Pct_discarded_sillywalks": 0.25463143254520165,
+            "Pct_discarded_tabu": 0.6069819193324061,
+            "Pct_realism": 0.7453685674547983,
+            "Pct_novelty": 0.3930180806675939,
+            "run_id": 1
+          },
+          {
+            "Pct_discarded_sillywalks": 0.24527352052802326,
+            "Pct_discarded_tabu": 0.6155889920572771,
+            "Pct_realism": 0.7547264794719768,
+            "Pct_novelty": 0.38441100794272287,
+            "run_id": 2
+          },
+          {
+            "Pct_discarded_sillywalks": 0.266439971480283,
+            "Pct_discarded_tabu": 0.5971315746174519,
+            "Pct_realism": 0.733560028519717,
+            "Pct_novelty": 0.4028684253825481,
+            "run_id": 3
+          },
+          {
+            "Pct_discarded_sillywalks": 0.26636116675356036,
+            "Pct_discarded_tabu": 0.5971242762670471,
+            "Pct_realism": 0.7336388332464396,
+            "Pct_novelty": 0.4028757237329529,
+            "run_id": 4
+          },
+          {
+            "Pct_discarded_sillywalks": 0.2633890581679431,
+            "Pct_discarded_tabu": 0.6000439210519092,
+            "Pct_realism": 0.7366109418320569,
+            "Pct_novelty": 0.3999560789480908,
+            "run_id": 5
+          },
+          {
+            "Pct_discarded_sillywalks": 0.24505605949630965,
+            "Pct_discarded_tabu": 0.6147951997295622,
+            "Pct_realism": 0.7549439405036904,
+            "Pct_novelty": 0.3852048002704378,
+            "run_id": 6
+          },
+          {
+            "Pct_discarded_sillywalks": 0.25406723760427924,
+            "Pct_discarded_tabu": 0.6080485574124885,
+            "Pct_realism": 0.7459327623957208,
+            "Pct_novelty": 0.39195144258751147,
+            "run_id": 7
+          },
+          {
+            "Pct_discarded_sillywalks": 0.24993073641048374,
+            "Pct_discarded_tabu": 0.6122347204521527,
+            "Pct_realism": 0.7500692635895163,
+            "Pct_novelty": 0.38776527954784734,
+            "run_id": 8
+          },
+          {
+            "Pct_discarded_sillywalks": 0.2558540999582347,
+            "Pct_discarded_tabu": 0.6056243909230127,
+            "Pct_realism": 0.7441459000417653,
+            "Pct_novelty": 0.3943756090769873,
+            "run_id": 9
+          },
+          {
+            "Pct_discarded_sillywalks": 0.26863127131027764,
+            "Pct_discarded_tabu": 0.5967418953293283,
+            "Pct_realism": 0.7313687286897224,
+            "Pct_novelty": 0.4032581046706717,
+            "run_id": 10
+          }
+        ]
+      },
+      "greedy_param_0.01": {
+        "ecfp0": [
+          {
+            "Pct_discarded_sillywalks": 0.2660739667233355,
+            "Pct_discarded_tabu": 0.5952732644017725,
+            "Pct_realism": 0.7339260332766645,
+            "Pct_novelty": 0.40472673559822747,
+            "run_id": 1
+          },
+          {
+            "Pct_discarded_sillywalks": 0.2640106907207884,
+            "Pct_discarded_tabu": 0.5974832261477213,
+            "Pct_realism": 0.7359893092792116,
+            "Pct_novelty": 0.4025167738522787,
+            "run_id": 2
+          },
+          {
+            "Pct_discarded_sillywalks": 0.293261600537996,
+            "Pct_discarded_tabu": 0.5729119031607263,
+            "Pct_realism": 0.706738399462004,
+            "Pct_novelty": 0.42708809683927373,
+            "run_id": 3
+          },
+          {
+            "Pct_discarded_sillywalks": 0.28119474443023856,
+            "Pct_discarded_tabu": 0.5834716139386851,
+            "Pct_realism": 0.7188052555697615,
+            "Pct_novelty": 0.4165283860613149,
+            "run_id": 4
+          },
+          {
+            "Pct_discarded_sillywalks": 0.2766655636443856,
+            "Pct_discarded_tabu": 0.586146040150011,
+            "Pct_realism": 0.7233344363556145,
+            "Pct_novelty": 0.41385395984998896,
+            "run_id": 5
+          },
+          {
+            "Pct_discarded_sillywalks": 0.2762199463278383,
+            "Pct_discarded_tabu": 0.5875458677912262,
+            "Pct_realism": 0.7237800536721617,
+            "Pct_novelty": 0.4124541322087738,
+            "run_id": 6
+          },
+          {
+            "Pct_discarded_sillywalks": 0.27669943236882183,
+            "Pct_discarded_tabu": 0.585546171950713,
+            "Pct_realism": 0.7233005676311781,
+            "Pct_novelty": 0.414453828049287,
+            "run_id": 7
+          },
+          {
+            "Pct_discarded_sillywalks": 0.2878454521062517,
+            "Pct_discarded_tabu": 0.578669170914945,
+            "Pct_realism": 0.7121545478937483,
+            "Pct_novelty": 0.42133082908505504,
+            "run_id": 8
+          },
+          {
+            "Pct_discarded_sillywalks": 0.26927493208614556,
+            "Pct_discarded_tabu": 0.5913966449155628,
+            "Pct_realism": 0.7307250679138544,
+            "Pct_novelty": 0.40860335508443724,
+            "run_id": 9
+          },
+          {
+            "Pct_discarded_sillywalks": 0.292432389053848,
+            "Pct_discarded_tabu": 0.5744857288072118,
+            "Pct_realism": 0.707567610946152,
+            "Pct_novelty": 0.4255142711927882,
+            "run_id": 10
+          }
+        ],
+        "ecfp2": [
+          {
+            "Pct_discarded_sillywalks": 0.2505880725058807,
+            "Pct_discarded_tabu": 0.6117337761173378,
+            "Pct_realism": 0.7494119274941193,
+            "Pct_novelty": 0.3882662238826622,
+            "run_id": 1
+          },
+          {
+            "Pct_discarded_sillywalks": 0.2375944978116296,
+            "Pct_discarded_tabu": 0.6210140396748707,
+            "Pct_realism": 0.7624055021883704,
+            "Pct_novelty": 0.3789859603251293,
+            "run_id": 2
+          },
+          {
+            "Pct_discarded_sillywalks": 0.24130575125606984,
+            "Pct_discarded_tabu": 0.6190529654475538,
+            "Pct_realism": 0.7586942487439301,
+            "Pct_novelty": 0.38094703455244616,
+            "run_id": 3
+          },
+          {
+            "Pct_discarded_sillywalks": 0.25464051564358625,
+            "Pct_discarded_tabu": 0.6077346537940193,
+            "Pct_realism": 0.7453594843564137,
+            "Pct_novelty": 0.39226534620598075,
+            "run_id": 4
+          },
+          {
+            "Pct_discarded_sillywalks": 0.2448067463106114,
+            "Pct_discarded_tabu": 0.6153478566408995,
+            "Pct_realism": 0.7551932536893886,
+            "Pct_novelty": 0.3846521433591005,
+            "run_id": 5
+          },
+          {
+            "Pct_discarded_sillywalks": 0.23504140640456742,
+            "Pct_discarded_tabu": 0.6243464006104972,
+            "Pct_realism": 0.7649585935954326,
+            "Pct_novelty": 0.3756535993895028,
+            "run_id": 6
+          },
+          {
+            "Pct_discarded_sillywalks": 0.24299856163804046,
+            "Pct_discarded_tabu": 0.6166906393659927,
+            "Pct_realism": 0.7570014383619595,
+            "Pct_novelty": 0.38330936063400733,
+            "run_id": 7
+          },
+          {
+            "Pct_discarded_sillywalks": 0.23703577898550723,
+            "Pct_discarded_tabu": 0.6221410778985508,
+            "Pct_realism": 0.7629642210144928,
+            "Pct_novelty": 0.3778589221014492,
+            "run_id": 8
+          },
+          {
+            "Pct_discarded_sillywalks": 0.2392641514782165,
+            "Pct_discarded_tabu": 0.6197171121630431,
+            "Pct_realism": 0.7607358485217834,
+            "Pct_novelty": 0.38028288783695685,
+            "run_id": 9
+          },
+          {
+            "Pct_discarded_sillywalks": 0.2550825657621774,
+            "Pct_discarded_tabu": 0.6073078306088014,
+            "Pct_realism": 0.7449174342378226,
+            "Pct_novelty": 0.39269216939119855,
+            "run_id": 10
+          }
+        ]
+      },
+      "greedy_param_0.1": {
+        "ecfp0": [
+          {
+            "Pct_discarded_sillywalks": 0.2742601991291566,
+            "Pct_discarded_tabu": 0.5877638183986466,
+            "Pct_realism": 0.7257398008708433,
+            "Pct_novelty": 0.41223618160135345,
+            "run_id": 1
+          },
+          {
+            "Pct_discarded_sillywalks": 0.279701680787475,
+            "Pct_discarded_tabu": 0.5838885690000274,
+            "Pct_realism": 0.720298319212525,
+            "Pct_novelty": 0.4161114309999726,
+            "run_id": 2
+          },
+          {
+            "Pct_discarded_sillywalks": 0.2887955561577022,
+            "Pct_discarded_tabu": 0.5763988619428262,
+            "Pct_realism": 0.7112044438422978,
+            "Pct_novelty": 0.4236011380571738,
+            "run_id": 3
+          },
+          {
+            "Pct_discarded_sillywalks": 0.2827845255394401,
+            "Pct_discarded_tabu": 0.5808132042881036,
+            "Pct_realism": 0.7172154744605599,
+            "Pct_novelty": 0.41918679571189643,
+            "run_id": 4
+          },
+          {
+            "Pct_discarded_sillywalks": 0.2643604228424409,
+            "Pct_discarded_tabu": 0.5965098719167738,
+            "Pct_realism": 0.7356395771575591,
+            "Pct_novelty": 0.40349012808322615,
+            "run_id": 5
+          },
+          {
+            "Pct_discarded_sillywalks": 0.27579901198176804,
+            "Pct_discarded_tabu": 0.588416714429979,
+            "Pct_realism": 0.724200988018232,
+            "Pct_novelty": 0.411583285570021,
+            "run_id": 6
+          },
+          {
+            "Pct_discarded_sillywalks": 0.2941335862349275,
+            "Pct_discarded_tabu": 0.5710608318656009,
+            "Pct_realism": 0.7058664137650725,
+            "Pct_novelty": 0.42893916813439914,
+            "run_id": 7
+          },
+          {
+            "Pct_discarded_sillywalks": 0.2705691414738811,
+            "Pct_discarded_tabu": 0.5925783291612797,
+            "Pct_realism": 0.7294308585261189,
+            "Pct_novelty": 0.4074216708387203,
+            "run_id": 8
+          },
+          {
+            "Pct_discarded_sillywalks": 0.2781796262808921,
+            "Pct_discarded_tabu": 0.5855115348786235,
+            "Pct_realism": 0.7218203737191079,
+            "Pct_novelty": 0.4144884651213765,
+            "run_id": 9
+          },
+          {
+            "Pct_discarded_sillywalks": 0.26705208738673636,
+            "Pct_discarded_tabu": 0.5946689643671133,
+            "Pct_realism": 0.7329479126132636,
+            "Pct_novelty": 0.40533103563288675,
+            "run_id": 10
+          }
+        ],
+        "ecfp2": [
+          {
+            "Pct_discarded_sillywalks": 0.26404924760601917,
+            "Pct_discarded_tabu": 0.5998358413132695,
+            "Pct_realism": 0.7359507523939808,
+            "Pct_novelty": 0.4001641586867305,
+            "run_id": 1
+          },
+          {
+            "Pct_discarded_sillywalks": 0.237962752668635,
+            "Pct_discarded_tabu": 0.6207983193277311,
+            "Pct_realism": 0.762037247331365,
+            "Pct_novelty": 0.3792016806722689,
+            "run_id": 2
+          },
+          {
+            "Pct_discarded_sillywalks": 0.24543826262173962,
+            "Pct_discarded_tabu": 0.6153307959252211,
+            "Pct_realism": 0.7545617373782604,
+            "Pct_novelty": 0.3846692040747789,
+            "run_id": 3
+          },
+          {
+            "Pct_discarded_sillywalks": 0.2429090909090909,
+            "Pct_discarded_tabu": 0.6179300699300699,
+            "Pct_realism": 0.757090909090909,
+            "Pct_novelty": 0.38206993006993006,
+            "run_id": 4
+          },
+          {
+            "Pct_discarded_sillywalks": 0.2378962331201137,
+            "Pct_discarded_tabu": 0.6206680881307747,
+            "Pct_realism": 0.7621037668798862,
+            "Pct_novelty": 0.3793319118692253,
+            "run_id": 5
+          },
+          {
+            "Pct_discarded_sillywalks": 0.23928490863974736,
+            "Pct_discarded_tabu": 0.6204319873674713,
+            "Pct_realism": 0.7607150913602526,
+            "Pct_novelty": 0.3795680126325287,
+            "run_id": 6
+          },
+          {
+            "Pct_discarded_sillywalks": 0.2393529777727504,
+            "Pct_discarded_tabu": 0.6199592783213619,
+            "Pct_realism": 0.7606470222272496,
+            "Pct_novelty": 0.3800407216786381,
+            "run_id": 7
+          },
+          {
+            "Pct_discarded_sillywalks": 0.25181986769631043,
+            "Pct_discarded_tabu": 0.6104791164992112,
+            "Pct_realism": 0.7481801323036896,
+            "Pct_novelty": 0.38952088350078884,
+            "run_id": 8
+          },
+          {
+            "Pct_discarded_sillywalks": 0.24244821837294075,
+            "Pct_discarded_tabu": 0.6169713752861059,
+            "Pct_realism": 0.7575517816270593,
+            "Pct_novelty": 0.3830286247138941,
+            "run_id": 9
+          },
+          {
+            "Pct_discarded_sillywalks": 0.24457979436745642,
+            "Pct_discarded_tabu": 0.6164226642825212,
+            "Pct_realism": 0.7554202056325436,
+            "Pct_novelty": 0.38357733571747876,
+            "run_id": 10
+          }
+        ]
+      }
+    },
+    "power_law": {
+      "power_law_param_0.25": {
+        "ecfp0": [
+          {
+            "Pct_discarded_sillywalks": 0.2690427641685986,
+            "Pct_discarded_tabu": 0.5919946370213123,
+            "Pct_realism": 0.7309572358314014,
+            "Pct_novelty": 0.4080053629786877,
+            "run_id": 1
+          },
+          {
+            "Pct_discarded_sillywalks": 0.2709637917118922,
+            "Pct_discarded_tabu": 0.5905763825109237,
+            "Pct_realism": 0.7290362082881078,
+            "Pct_novelty": 0.4094236174890763,
+            "run_id": 2
+          },
+          {
+            "Pct_discarded_sillywalks": 0.29530781490585917,
+            "Pct_discarded_tabu": 0.5703017369458927,
+            "Pct_realism": 0.7046921850941408,
+            "Pct_novelty": 0.4296982630541073,
+            "run_id": 3
+          },
+          {
+            "Pct_discarded_sillywalks": 0.27204079358002675,
+            "Pct_discarded_tabu": 0.5893334819438253,
+            "Pct_realism": 0.7279592064199732,
+            "Pct_novelty": 0.4106665180561747,
+            "run_id": 4
+          },
+          {
+            "Pct_discarded_sillywalks": 0.28322374703298503,
+            "Pct_discarded_tabu": 0.5810438436144381,
+            "Pct_realism": 0.716776252967015,
+            "Pct_novelty": 0.41895615638556194,
+            "run_id": 5
+          },
+          {
+            "Pct_discarded_sillywalks": 0.26394898016519636,
+            "Pct_discarded_tabu": 0.5962802719559477,
+            "Pct_realism": 0.7360510198348036,
+            "Pct_novelty": 0.4037197280440523,
+            "run_id": 6
+          },
+          {
+            "Pct_discarded_sillywalks": 0.2652562373567094,
+            "Pct_discarded_tabu": 0.594965160710272,
+            "Pct_realism": 0.7347437626432907,
+            "Pct_novelty": 0.40503483928972805,
+            "run_id": 7
+          },
+          {
+            "Pct_discarded_sillywalks": 0.28034594236136057,
+            "Pct_discarded_tabu": 0.5821889420021552,
+            "Pct_realism": 0.7196540576386394,
+            "Pct_novelty": 0.4178110579978448,
+            "run_id": 8
+          },
+          {
+            "Pct_discarded_sillywalks": 0.26916354556803995,
+            "Pct_discarded_tabu": 0.5928145373838257,
+            "Pct_realism": 0.7308364544319601,
+            "Pct_novelty": 0.4071854626161743,
+            "run_id": 9
+          },
+          {
+            "Pct_discarded_sillywalks": 0.2756269849961669,
+            "Pct_discarded_tabu": 0.5881612090680101,
+            "Pct_realism": 0.7243730150038331,
+            "Pct_novelty": 0.41183879093198994,
+            "run_id": 10
+          }
+        ],
+        "ecfp2": [
+          {
+            "Pct_discarded_sillywalks": 0.25221824193992837,
+            "Pct_discarded_tabu": 0.6106916505924497,
+            "Pct_realism": 0.7477817580600716,
+            "Pct_novelty": 0.3893083494075503,
+            "run_id": 1
+          },
+          {
+            "Pct_discarded_sillywalks": 0.24462260461478294,
+            "Pct_discarded_tabu": 0.6164031510140231,
+            "Pct_realism": 0.7553773953852171,
+            "Pct_novelty": 0.3835968489859769,
+            "run_id": 2
+          },
+          {
+            "Pct_discarded_sillywalks": 0.26989903412044763,
+            "Pct_discarded_tabu": 0.5939748816592333,
+            "Pct_realism": 0.7301009658795523,
+            "Pct_novelty": 0.4060251183407667,
+            "run_id": 3
+          },
+          {
+            "Pct_discarded_sillywalks": 0.23729923681512702,
+            "Pct_discarded_tabu": 0.6210274518737897,
+            "Pct_realism": 0.762700763184873,
+            "Pct_novelty": 0.3789725481262103,
+            "run_id": 4
+          },
+          {
+            "Pct_discarded_sillywalks": 0.2353343595005986,
+            "Pct_discarded_tabu": 0.6228550253691352,
+            "Pct_realism": 0.7646656404994014,
+            "Pct_novelty": 0.3771449746308648,
+            "run_id": 5
+          },
+          {
+            "Pct_discarded_sillywalks": 0.2427140512704431,
+            "Pct_discarded_tabu": 0.6165185897798653,
+            "Pct_realism": 0.7572859487295569,
+            "Pct_novelty": 0.3834814102201347,
+            "run_id": 6
+          },
+          {
+            "Pct_discarded_sillywalks": 0.24425986520121934,
+            "Pct_discarded_tabu": 0.6166065385798585,
+            "Pct_realism": 0.7557401347987807,
+            "Pct_novelty": 0.3833934614201415,
+            "run_id": 7
+          },
+          {
+            "Pct_discarded_sillywalks": 0.2484671125975474,
+            "Pct_discarded_tabu": 0.612876254180602,
+            "Pct_realism": 0.7515328874024526,
+            "Pct_novelty": 0.387123745819398,
+            "run_id": 8
+          },
+          {
+            "Pct_discarded_sillywalks": 0.2338166457358146,
+            "Pct_discarded_tabu": 0.6241865509761388,
+            "Pct_realism": 0.7661833542641854,
+            "Pct_novelty": 0.37581344902386116,
+            "run_id": 9
+          },
+          {
+            "Pct_discarded_sillywalks": 0.24111845791774067,
+            "Pct_discarded_tabu": 0.6194945646083155,
+            "Pct_realism": 0.7588815420822593,
+            "Pct_novelty": 0.38050543539168447,
+            "run_id": 10
+          }
+        ]
+      },
+      "power_law_param_0.3": {
+        "ecfp0": [
+          {
+            "Pct_discarded_sillywalks": 0.2901017426128369,
+            "Pct_discarded_tabu": 0.5752787098170797,
+            "Pct_realism": 0.7098982573871631,
+            "Pct_novelty": 0.42472129018292026,
+            "run_id": 1
+          },
+          {
+            "Pct_discarded_sillywalks": 0.2804292032982035,
+            "Pct_discarded_tabu": 0.5837383279637416,
+            "Pct_realism": 0.7195707967017966,
+            "Pct_novelty": 0.4162616720362584,
+            "run_id": 2
+          },
+          {
+            "Pct_discarded_sillywalks": 0.28449739797315804,
+            "Pct_discarded_tabu": 0.5792385647767735,
+            "Pct_realism": 0.715502602026842,
+            "Pct_novelty": 0.4207614352232265,
+            "run_id": 3
+          },
+          {
+            "Pct_discarded_sillywalks": 0.26700558103553074,
+            "Pct_discarded_tabu": 0.5955406973531524,
+            "Pct_realism": 0.7329944189644693,
+            "Pct_novelty": 0.4044593026468476,
+            "run_id": 4
+          },
+          {
+            "Pct_discarded_sillywalks": 0.26166601310850934,
+            "Pct_discarded_tabu": 0.5989860512016133,
+            "Pct_realism": 0.7383339868914907,
+            "Pct_novelty": 0.4010139487983867,
+            "run_id": 5
+          },
+          {
+            "Pct_discarded_sillywalks": 0.2805073063137579,
+            "Pct_discarded_tabu": 0.5823269920044114,
+            "Pct_realism": 0.719492693686242,
+            "Pct_novelty": 0.4176730079955886,
+            "run_id": 6
+          },
+          {
+            "Pct_discarded_sillywalks": 0.2723445506162581,
+            "Pct_discarded_tabu": 0.5898628998753636,
+            "Pct_realism": 0.7276554493837419,
+            "Pct_novelty": 0.41013710012463644,
+            "run_id": 7
+          },
+          {
+            "Pct_discarded_sillywalks": 0.26786110494785886,
+            "Pct_discarded_tabu": 0.59415908586643,
+            "Pct_realism": 0.7321388950521411,
+            "Pct_novelty": 0.40584091413357004,
+            "run_id": 8
+          },
+          {
+            "Pct_discarded_sillywalks": 0.2885322092520536,
+            "Pct_discarded_tabu": 0.5770373973194984,
+            "Pct_realism": 0.7114677907479464,
+            "Pct_novelty": 0.42296260268050156,
+            "run_id": 9
+          },
+          {
+            "Pct_discarded_sillywalks": 0.2759361825245929,
+            "Pct_discarded_tabu": 0.5869774875313438,
+            "Pct_realism": 0.724063817475407,
+            "Pct_novelty": 0.4130225124686562,
+            "run_id": 10
+          }
+        ],
+        "ecfp2": [
+          {
+            "Pct_discarded_sillywalks": 0.25533618666298497,
+            "Pct_discarded_tabu": 0.6072897970454232,
+            "Pct_realism": 0.744663813337015,
+            "Pct_novelty": 0.3927102029545768,
+            "run_id": 1
+          },
+          {
+            "Pct_discarded_sillywalks": 0.24771283887754245,
+            "Pct_discarded_tabu": 0.6130990683490474,
+            "Pct_realism": 0.7522871611224575,
+            "Pct_novelty": 0.38690093165095263,
+            "run_id": 2
+          },
+          {
+            "Pct_discarded_sillywalks": 0.23843889737929472,
+            "Pct_discarded_tabu": 0.6207618724175016,
+            "Pct_realism": 0.7615611026207053,
+            "Pct_novelty": 0.3792381275824984,
+            "run_id": 3
+          },
+          {
+            "Pct_discarded_sillywalks": 0.23248633183195944,
+            "Pct_discarded_tabu": 0.6265828163508116,
+            "Pct_realism": 0.7675136681680406,
+            "Pct_novelty": 0.3734171836491884,
+            "run_id": 4
+          },
+          {
+            "Pct_discarded_sillywalks": 0.24515604407929786,
+            "Pct_discarded_tabu": 0.6153436334576452,
+            "Pct_realism": 0.7548439559207021,
+            "Pct_novelty": 0.3846563665423548,
+            "run_id": 5
+          },
+          {
+            "Pct_discarded_sillywalks": 0.22105384460257554,
+            "Pct_discarded_tabu": 0.635619832329809,
+            "Pct_realism": 0.7789461553974244,
+            "Pct_novelty": 0.364380167670191,
+            "run_id": 6
+          },
+          {
+            "Pct_discarded_sillywalks": 0.2396118367231798,
+            "Pct_discarded_tabu": 0.6200456994555559,
+            "Pct_realism": 0.7603881632768202,
+            "Pct_novelty": 0.3799543005444441,
+            "run_id": 7
+          },
+          {
+            "Pct_discarded_sillywalks": 0.2407766990291262,
+            "Pct_discarded_tabu": 0.6192204868439567,
+            "Pct_realism": 0.7592233009708738,
+            "Pct_novelty": 0.3807795131560433,
+            "run_id": 8
+          },
+          {
+            "Pct_discarded_sillywalks": 0.2365122924151979,
+            "Pct_discarded_tabu": 0.6227402608425043,
+            "Pct_realism": 0.7634877075848021,
+            "Pct_novelty": 0.37725973915749567,
+            "run_id": 9
+          },
+          {
+            "Pct_discarded_sillywalks": 0.2488561544470483,
+            "Pct_discarded_tabu": 0.6123479522374735,
+            "Pct_realism": 0.7511438455529517,
+            "Pct_novelty": 0.3876520477625265,
+            "run_id": 10
+          }
+        ]
+      },
+      "power_law_param_0.35": {
+        "ecfp0": [
+          {
+            "Pct_discarded_sillywalks": 0.27016652398442464,
+            "Pct_discarded_tabu": 0.5924442848858081,
+            "Pct_realism": 0.7298334760155754,
+            "Pct_novelty": 0.40755571511419186,
+            "run_id": 1
+          },
+          {
+            "Pct_discarded_sillywalks": 0.2810274179798146,
+            "Pct_discarded_tabu": 0.5821576877595358,
+            "Pct_realism": 0.7189725820201853,
+            "Pct_novelty": 0.4178423122404642,
+            "run_id": 2
+          },
+          {
+            "Pct_discarded_sillywalks": 0.26371029010382957,
+            "Pct_discarded_tabu": 0.596302653423,
+            "Pct_realism": 0.7362897098961705,
+            "Pct_novelty": 0.40369734657699996,
+            "run_id": 3
+          },
+          {
+            "Pct_discarded_sillywalks": 0.2741280755529782,
+            "Pct_discarded_tabu": 0.5884903211553862,
+            "Pct_realism": 0.7258719244470218,
+            "Pct_novelty": 0.41150967884461376,
+            "run_id": 4
+          },
+          {
+            "Pct_discarded_sillywalks": 0.27740749883430704,
+            "Pct_discarded_tabu": 0.5861378534792506,
+            "Pct_realism": 0.722592501165693,
+            "Pct_novelty": 0.4138621465207494,
+            "run_id": 5
+          },
+          {
+            "Pct_discarded_sillywalks": 0.26406962988000676,
+            "Pct_discarded_tabu": 0.5957974198636696,
+            "Pct_realism": 0.7359303701199933,
+            "Pct_novelty": 0.40420258013633037,
+            "run_id": 6
+          },
+          {
+            "Pct_discarded_sillywalks": 0.2675637790860667,
+            "Pct_discarded_tabu": 0.5929632744603308,
+            "Pct_realism": 0.7324362209139332,
+            "Pct_novelty": 0.4070367255396692,
+            "run_id": 7
+          },
+          {
+            "Pct_discarded_sillywalks": 0.2676110576261862,
+            "Pct_discarded_tabu": 0.5955439416861504,
+            "Pct_realism": 0.7323889423738138,
+            "Pct_novelty": 0.40445605831384956,
+            "run_id": 8
+          },
+          {
+            "Pct_discarded_sillywalks": 0.28039075791668955,
+            "Pct_discarded_tabu": 0.5830909390263981,
+            "Pct_realism": 0.7196092420833105,
+            "Pct_novelty": 0.4169090609736019,
+            "run_id": 9
+          },
+          {
+            "Pct_discarded_sillywalks": 0.2670341104018447,
+            "Pct_discarded_tabu": 0.5930654368549816,
+            "Pct_realism": 0.7329658895981552,
+            "Pct_novelty": 0.4069345631450184,
+            "run_id": 10
+          }
+        ],
+        "ecfp2": [
+          {
+            "Pct_discarded_sillywalks": 0.2561295126727157,
+            "Pct_discarded_tabu": 0.6066631732811164,
+            "Pct_realism": 0.7438704873272843,
+            "Pct_novelty": 0.3933368267188836,
+            "run_id": 1
+          },
+          {
+            "Pct_discarded_sillywalks": 0.23059854346836595,
+            "Pct_discarded_tabu": 0.6278732362312244,
+            "Pct_realism": 0.769401456531634,
+            "Pct_novelty": 0.3721267637687756,
+            "run_id": 2
+          },
+          {
+            "Pct_discarded_sillywalks": 0.24293450668471822,
+            "Pct_discarded_tabu": 0.6167428216844362,
+            "Pct_realism": 0.7570654933152818,
+            "Pct_novelty": 0.38325717831556383,
+            "run_id": 3
+          },
+          {
+            "Pct_discarded_sillywalks": 0.2467263570229435,
+            "Pct_discarded_tabu": 0.6140738668158926,
+            "Pct_realism": 0.7532736429770566,
+            "Pct_novelty": 0.3859261331841074,
+            "run_id": 4
+          },
+          {
+            "Pct_discarded_sillywalks": 0.24133555173288965,
+            "Pct_discarded_tabu": 0.6183694763261047,
+            "Pct_realism": 0.7586644482671103,
+            "Pct_novelty": 0.38163052367389527,
+            "run_id": 5
+          },
+          {
+            "Pct_discarded_sillywalks": 0.2404916315029311,
+            "Pct_discarded_tabu": 0.6186174279969414,
+            "Pct_realism": 0.7595083684970689,
+            "Pct_novelty": 0.3813825720030586,
+            "run_id": 6
+          },
+          {
+            "Pct_discarded_sillywalks": 0.25147566544158595,
+            "Pct_discarded_tabu": 0.6100066822586034,
+            "Pct_realism": 0.748524334558414,
+            "Pct_novelty": 0.38999331774139656,
+            "run_id": 7
+          },
+          {
+            "Pct_discarded_sillywalks": 0.23797161159240343,
+            "Pct_discarded_tabu": 0.6216384005418066,
+            "Pct_realism": 0.7620283884075966,
+            "Pct_novelty": 0.37836159945819337,
+            "run_id": 8
+          },
+          {
+            "Pct_discarded_sillywalks": 0.2364596343817418,
+            "Pct_discarded_tabu": 0.6223174747360054,
+            "Pct_realism": 0.7635403656182582,
+            "Pct_novelty": 0.3776825252639946,
+            "run_id": 9
+          },
+          {
+            "Pct_discarded_sillywalks": 0.235382351276391,
+            "Pct_discarded_tabu": 0.6238184185204053,
+            "Pct_realism": 0.7646176487236089,
+            "Pct_novelty": 0.3761815814795947,
+            "run_id": 10
+          }
+        ]
+      },
+      "power_law_param_0.4": {
+        "ecfp0": [
+          {
+            "Pct_discarded_sillywalks": 0.28518578967412,
+            "Pct_discarded_tabu": 0.579484250040803,
+            "Pct_realism": 0.71481421032588,
+            "Pct_novelty": 0.42051574995919705,
+            "run_id": 1
+          },
+          {
+            "Pct_discarded_sillywalks": 0.27976450065416486,
+            "Pct_discarded_tabu": 0.5846325774095072,
+            "Pct_realism": 0.7202354993458351,
+            "Pct_novelty": 0.41536742259049275,
+            "run_id": 2
+          },
+          {
+            "Pct_discarded_sillywalks": 0.2850645659059531,
+            "Pct_discarded_tabu": 0.5802539321584234,
+            "Pct_realism": 0.7149354340940469,
+            "Pct_novelty": 0.41974606784157664,
+            "run_id": 3
+          },
+          {
+            "Pct_discarded_sillywalks": 0.2666237185591844,
+            "Pct_discarded_tabu": 0.5940283457509383,
+            "Pct_realism": 0.7333762814408156,
+            "Pct_novelty": 0.4059716542490617,
+            "run_id": 4
+          },
+          {
+            "Pct_discarded_sillywalks": 0.27585064988823577,
+            "Pct_discarded_tabu": 0.5868587355465408,
+            "Pct_realism": 0.7241493501117642,
+            "Pct_novelty": 0.4131412644534592,
+            "run_id": 5
+          },
+          {
+            "Pct_discarded_sillywalks": 0.27247137274193106,
+            "Pct_discarded_tabu": 0.5915662321335847,
+            "Pct_realism": 0.727528627258069,
+            "Pct_novelty": 0.4084337678664153,
+            "run_id": 6
+          },
+          {
+            "Pct_discarded_sillywalks": 0.28404414770404685,
+            "Pct_discarded_tabu": 0.5803787982013898,
+            "Pct_realism": 0.7159558522959532,
+            "Pct_novelty": 0.4196212017986102,
+            "run_id": 7
+          },
+          {
+            "Pct_discarded_sillywalks": 0.28425882931359425,
+            "Pct_discarded_tabu": 0.5798530496298927,
+            "Pct_realism": 0.7157411706864057,
+            "Pct_novelty": 0.4201469503701073,
+            "run_id": 8
+          },
+          {
+            "Pct_discarded_sillywalks": 0.27196641085529977,
+            "Pct_discarded_tabu": 0.5897008119230341,
+            "Pct_realism": 0.7280335891447003,
+            "Pct_novelty": 0.41029918807696586,
+            "run_id": 9
+          },
+          {
+            "Pct_discarded_sillywalks": 0.2828321592061621,
+            "Pct_discarded_tabu": 0.5807954825799732,
+            "Pct_realism": 0.7171678407938379,
+            "Pct_novelty": 0.41920451742002685,
+            "run_id": 10
+          }
+        ],
+        "ecfp2": [
+          {
+            "Pct_discarded_sillywalks": 0.25253591973987716,
+            "Pct_discarded_tabu": 0.6092043464969569,
+            "Pct_realism": 0.7474640802601229,
+            "Pct_novelty": 0.39079565350304313,
+            "run_id": 1
+          },
+          {
+            "Pct_discarded_sillywalks": 0.24600817972995687,
+            "Pct_discarded_tabu": 0.614628270491344,
+            "Pct_realism": 0.7539918202700431,
+            "Pct_novelty": 0.38537172950865595,
+            "run_id": 2
+          },
+          {
+            "Pct_discarded_sillywalks": 0.238170929011382,
+            "Pct_discarded_tabu": 0.6206182055576055,
+            "Pct_realism": 0.761829070988618,
+            "Pct_novelty": 0.3793817944423945,
+            "run_id": 3
+          },
+          {
+            "Pct_discarded_sillywalks": 0.22945980799541482,
+            "Pct_discarded_tabu": 0.6279696231551798,
+            "Pct_realism": 0.7705401920045851,
+            "Pct_novelty": 0.3720303768448202,
+            "run_id": 4
+          },
+          {
+            "Pct_discarded_sillywalks": 0.2244426046989637,
+            "Pct_discarded_tabu": 0.63353221616375,
+            "Pct_realism": 0.7755573953010363,
+            "Pct_novelty": 0.36646778383625,
+            "run_id": 5
+          },
+          {
+            "Pct_discarded_sillywalks": 0.23674702196127137,
+            "Pct_discarded_tabu": 0.6229040817478688,
+            "Pct_realism": 0.7632529780387286,
+            "Pct_novelty": 0.3770959182521312,
+            "run_id": 6
+          },
+          {
+            "Pct_discarded_sillywalks": 0.24176629821791112,
+            "Pct_discarded_tabu": 0.6179505977893075,
+            "Pct_realism": 0.7582337017820888,
+            "Pct_novelty": 0.3820494022106925,
+            "run_id": 7
+          },
+          {
+            "Pct_discarded_sillywalks": 0.24133179606872698,
+            "Pct_discarded_tabu": 0.6187677511880993,
+            "Pct_realism": 0.758668203931273,
+            "Pct_novelty": 0.38123224881190065,
+            "run_id": 8
+          },
+          {
+            "Pct_discarded_sillywalks": 0.24868465241240345,
+            "Pct_discarded_tabu": 0.6120844061345573,
+            "Pct_realism": 0.7513153475875965,
+            "Pct_novelty": 0.3879155938654427,
+            "run_id": 9
+          },
+          {
+            "Pct_discarded_sillywalks": 0.2409010674960074,
+            "Pct_discarded_tabu": 0.6197360679162814,
+            "Pct_realism": 0.7590989325039926,
+            "Pct_novelty": 0.38026393208371856,
+            "run_id": 10
+          }
+        ]
+      }
+    },
+    "constant": {
+      "constant_param_0.2": {
+        "ecfp0": [
+          {
+            "Pct_discarded_sillywalks": 0.2664340544312631,
+            "Pct_discarded_tabu": 0.5946964410327983,
+            "Pct_realism": 0.7335659455687369,
+            "Pct_novelty": 0.4053035589672017,
+            "run_id": 1
+          },
+          {
+            "Pct_discarded_sillywalks": 0.27012527308426204,
+            "Pct_discarded_tabu": 0.5922955670473715,
+            "Pct_realism": 0.729874726915738,
+            "Pct_novelty": 0.4077044329526285,
+            "run_id": 2
+          },
+          {
+            "Pct_discarded_sillywalks": 0.2664403194834831,
+            "Pct_discarded_tabu": 0.5951075612946317,
+            "Pct_realism": 0.7335596805165169,
+            "Pct_novelty": 0.4048924387053683,
+            "run_id": 3
+          },
+          {
+            "Pct_discarded_sillywalks": 0.27084723148765844,
+            "Pct_discarded_tabu": 0.5908661329775405,
+            "Pct_realism": 0.7291527685123416,
+            "Pct_novelty": 0.40913386702245946,
+            "run_id": 4
+          },
+          {
+            "Pct_discarded_sillywalks": 0.27520044235554325,
+            "Pct_discarded_tabu": 0.5872546309095936,
+            "Pct_realism": 0.7247995576444568,
+            "Pct_novelty": 0.4127453690904064,
+            "run_id": 5
+          },
+          {
+            "Pct_discarded_sillywalks": 0.2687437797191198,
+            "Pct_discarded_tabu": 0.5937188985955988,
+            "Pct_realism": 0.7312562202808802,
+            "Pct_novelty": 0.4062811014044012,
+            "run_id": 6
+          },
+          {
+            "Pct_discarded_sillywalks": 0.26210308586762077,
+            "Pct_discarded_tabu": 0.5988372093023255,
+            "Pct_realism": 0.7378969141323792,
+            "Pct_novelty": 0.40116279069767447,
+            "run_id": 7
+          },
+          {
+            "Pct_discarded_sillywalks": 0.2905716607965321,
+            "Pct_discarded_tabu": 0.5746410186941209,
+            "Pct_realism": 0.7094283392034679,
+            "Pct_novelty": 0.4253589813058791,
+            "run_id": 8
+          },
+          {
+            "Pct_discarded_sillywalks": 0.2718137526298306,
+            "Pct_discarded_tabu": 0.5904661720739675,
+            "Pct_realism": 0.7281862473701695,
+            "Pct_novelty": 0.40953382792603255,
+            "run_id": 9
+          },
+          {
+            "Pct_discarded_sillywalks": 0.2801724137931034,
+            "Pct_discarded_tabu": 0.5841062854648625,
+            "Pct_realism": 0.7198275862068966,
+            "Pct_novelty": 0.41589371453513746,
+            "run_id": 10
+          }
+        ],
+        "ecfp2": [
+          {
+            "Pct_discarded_sillywalks": 0.23463623719095064,
+            "Pct_discarded_tabu": 0.6241448806381107,
+            "Pct_realism": 0.7653637628090494,
+            "Pct_novelty": 0.3758551193618893,
+            "run_id": 1
+          },
+          {
+            "Pct_discarded_sillywalks": 0.24026542425525907,
+            "Pct_discarded_tabu": 0.6192573768177326,
+            "Pct_realism": 0.7597345757447409,
+            "Pct_novelty": 0.38074262318226737,
+            "run_id": 2
+          },
+          {
+            "Pct_discarded_sillywalks": 0.241817720519832,
+            "Pct_discarded_tabu": 0.6179347672877964,
+            "Pct_realism": 0.758182279480168,
+            "Pct_novelty": 0.3820652327122036,
+            "run_id": 3
+          },
+          {
+            "Pct_discarded_sillywalks": 0.2633196159122085,
+            "Pct_discarded_tabu": 0.6001920438957477,
+            "Pct_realism": 0.7366803840877916,
+            "Pct_novelty": 0.39980795610425235,
+            "run_id": 4
+          },
+          {
+            "Pct_discarded_sillywalks": 0.2410334432141549,
+            "Pct_discarded_tabu": 0.6187980728594371,
+            "Pct_realism": 0.7589665567858451,
+            "Pct_novelty": 0.3812019271405629,
+            "run_id": 5
+          },
+          {
+            "Pct_discarded_sillywalks": 0.24115582724854248,
+            "Pct_discarded_tabu": 0.6180449425482538,
+            "Pct_realism": 0.7588441727514575,
+            "Pct_novelty": 0.3819550574517462,
+            "run_id": 6
+          },
+          {
+            "Pct_discarded_sillywalks": 0.25273254517064464,
+            "Pct_discarded_tabu": 0.6085489627481597,
+            "Pct_realism": 0.7472674548293554,
+            "Pct_novelty": 0.3914510372518403,
+            "run_id": 7
+          },
+          {
+            "Pct_discarded_sillywalks": 0.24322950495608708,
+            "Pct_discarded_tabu": 0.6162774279178787,
+            "Pct_realism": 0.7567704950439129,
+            "Pct_novelty": 0.38372257208212135,
+            "run_id": 8
+          },
+          {
+            "Pct_discarded_sillywalks": 0.25449159815076267,
+            "Pct_discarded_tabu": 0.6077845140215375,
+            "Pct_realism": 0.7455084018492373,
+            "Pct_novelty": 0.39221548597846245,
+            "run_id": 9
+          },
+          {
+            "Pct_discarded_sillywalks": 0.2512062473853019,
+            "Pct_discarded_tabu": 0.6100404406637847,
+            "Pct_realism": 0.7487937526146982,
+            "Pct_novelty": 0.3899595593362153,
+            "run_id": 10
+          }
+        ]
+      }
+    }
+  },
+  "eps_0.3": {
+    "greedy": {
+      "greedy_param_0.001": {
+        "ecfp0": [
+          {
+            "Pct_discarded_sillywalks": 0.34270432628971914,
+            "Pct_discarded_tabu": 0.5262159456183801,
+            "Pct_realism": 0.6572956737102809,
+            "Pct_novelty": 0.47378405438161986,
+            "run_id": 1
+          },
+          {
+            "Pct_discarded_sillywalks": 0.3404637405588127,
+            "Pct_discarded_tabu": 0.5281519040828183,
+            "Pct_realism": 0.6595362594411873,
+            "Pct_novelty": 0.4718480959171817,
+            "run_id": 2
+          },
+          {
+            "Pct_discarded_sillywalks": 0.3422023182297155,
+            "Pct_discarded_tabu": 0.5267386722866175,
+            "Pct_realism": 0.6577976817702845,
+            "Pct_novelty": 0.4732613277133825,
+            "run_id": 3
+          },
+          {
+            "Pct_discarded_sillywalks": 0.33313834454518865,
+            "Pct_discarded_tabu": 0.5345794889521125,
+            "Pct_realism": 0.6668616554548114,
+            "Pct_novelty": 0.4654205110478875,
+            "run_id": 4
+          },
+          {
+            "Pct_discarded_sillywalks": 0.3323557641036579,
+            "Pct_discarded_tabu": 0.5350058654153781,
+            "Pct_realism": 0.6676442358963421,
+            "Pct_novelty": 0.4649941345846219,
+            "run_id": 5
+          },
+          {
+            "Pct_discarded_sillywalks": 0.32705857042973163,
+            "Pct_discarded_tabu": 0.5391545205184747,
+            "Pct_realism": 0.6729414295702684,
+            "Pct_novelty": 0.4608454794815253,
+            "run_id": 6
+          },
+          {
+            "Pct_discarded_sillywalks": 0.3361476171512014,
+            "Pct_discarded_tabu": 0.531766892340369,
+            "Pct_realism": 0.6638523828487986,
+            "Pct_novelty": 0.468233107659631,
+            "run_id": 7
+          },
+          {
+            "Pct_discarded_sillywalks": 0.3295729036710642,
+            "Pct_discarded_tabu": 0.538369654659836,
+            "Pct_realism": 0.6704270963289358,
+            "Pct_novelty": 0.461630345340164,
+            "run_id": 8
+          },
+          {
+            "Pct_discarded_sillywalks": 0.3145045216305027,
+            "Pct_discarded_tabu": 0.5503897020883687,
+            "Pct_realism": 0.6854954783694973,
+            "Pct_novelty": 0.4496102979116313,
+            "run_id": 9
+          },
+          {
+            "Pct_discarded_sillywalks": 0.34209907201672984,
+            "Pct_discarded_tabu": 0.5278525682917266,
+            "Pct_realism": 0.6579009279832702,
+            "Pct_novelty": 0.47214743170827345,
+            "run_id": 10
+          }
+        ],
+        "ecfp2": [
+          {
+            "Pct_discarded_sillywalks": 0.3061312841603983,
+            "Pct_discarded_tabu": 0.5592564532712809,
+            "Pct_realism": 0.6938687158396017,
+            "Pct_novelty": 0.44074354672871907,
+            "run_id": 1
+          },
+          {
+            "Pct_discarded_sillywalks": 0.3194909400074393,
+            "Pct_discarded_tabu": 0.5483288166214996,
+            "Pct_realism": 0.6805090599925607,
+            "Pct_novelty": 0.45167118337850043,
+            "run_id": 2
+          },
+          {
+            "Pct_discarded_sillywalks": 0.3336895050949936,
+            "Pct_discarded_tabu": 0.5366552865445258,
+            "Pct_realism": 0.6663104949050064,
+            "Pct_novelty": 0.46334471345547423,
+            "run_id": 3
+          },
+          {
+            "Pct_discarded_sillywalks": 0.3313510452064669,
+            "Pct_discarded_tabu": 0.540572546596643,
+            "Pct_realism": 0.668648954793533,
+            "Pct_novelty": 0.459427453403357,
+            "run_id": 4
+          },
+          {
+            "Pct_discarded_sillywalks": 0.318818578885693,
+            "Pct_discarded_tabu": 0.5486843506977735,
+            "Pct_realism": 0.681181421114307,
+            "Pct_novelty": 0.45131564930222645,
+            "run_id": 5
+          },
+          {
+            "Pct_discarded_sillywalks": 0.30685695715755834,
+            "Pct_discarded_tabu": 0.5584141255483941,
+            "Pct_realism": 0.6931430428424417,
+            "Pct_novelty": 0.4415858744516059,
+            "run_id": 6
+          },
+          {
+            "Pct_discarded_sillywalks": 0.30957383761650775,
+            "Pct_discarded_tabu": 0.5564085986746403,
+            "Pct_realism": 0.6904261623834922,
+            "Pct_novelty": 0.4435914013253597,
+            "run_id": 7
+          },
+          {
+            "Pct_discarded_sillywalks": 0.3082052380697338,
+            "Pct_discarded_tabu": 0.5585667612875582,
+            "Pct_realism": 0.6917947619302662,
+            "Pct_novelty": 0.4414332387124418,
+            "run_id": 8
+          },
+          {
+            "Pct_discarded_sillywalks": 0.3092385732016621,
+            "Pct_discarded_tabu": 0.5565269008688144,
+            "Pct_realism": 0.690761426798338,
+            "Pct_novelty": 0.4434730991311856,
+            "run_id": 9
+          },
+          {
+            "Pct_discarded_sillywalks": 0.30942247602629025,
+            "Pct_discarded_tabu": 0.5565671802607478,
+            "Pct_realism": 0.6905775239737098,
+            "Pct_novelty": 0.4434328197392522,
+            "run_id": 10
+          }
+        ]
+      },
+      "greedy_param_0.01": {
+        "ecfp0": [
+          {
+            "Pct_discarded_sillywalks": 0.32302737520128827,
+            "Pct_discarded_tabu": 0.5434514224369297,
+            "Pct_realism": 0.6769726247987118,
+            "Pct_novelty": 0.4565485775630703,
+            "run_id": 1
+          },
+          {
+            "Pct_discarded_sillywalks": 0.3152010906612134,
+            "Pct_discarded_tabu": 0.549147920927062,
+            "Pct_realism": 0.6847989093387866,
+            "Pct_novelty": 0.450852079072938,
+            "run_id": 2
+          },
+          {
+            "Pct_discarded_sillywalks": 0.33015898420828,
+            "Pct_discarded_tabu": 0.5371318822023048,
+            "Pct_realism": 0.6698410157917201,
+            "Pct_novelty": 0.4628681177976952,
+            "run_id": 3
+          },
+          {
+            "Pct_discarded_sillywalks": 0.315097574916306,
+            "Pct_discarded_tabu": 0.5494951144497973,
+            "Pct_realism": 0.6849024250836939,
+            "Pct_novelty": 0.45050488555020274,
+            "run_id": 4
+          },
+          {
+            "Pct_discarded_sillywalks": 0.3369881879336829,
+            "Pct_discarded_tabu": 0.5312516552783516,
+            "Pct_realism": 0.6630118120663171,
+            "Pct_novelty": 0.4687483447216484,
+            "run_id": 5
+          },
+          {
+            "Pct_discarded_sillywalks": 0.3475733722566856,
+            "Pct_discarded_tabu": 0.5227545222332274,
+            "Pct_realism": 0.6524266277433144,
+            "Pct_novelty": 0.4772454777667726,
+            "run_id": 6
+          },
+          {
+            "Pct_discarded_sillywalks": 0.3299691915436099,
+            "Pct_discarded_tabu": 0.5378997131626474,
+            "Pct_realism": 0.6700308084563902,
+            "Pct_novelty": 0.4621002868373526,
+            "run_id": 7
+          },
+          {
+            "Pct_discarded_sillywalks": 0.3208080808080808,
+            "Pct_discarded_tabu": 0.5451851851851852,
+            "Pct_realism": 0.6791919191919191,
+            "Pct_novelty": 0.4548148148148148,
+            "run_id": 8
+          },
+          {
+            "Pct_discarded_sillywalks": 0.3296717945983416,
+            "Pct_discarded_tabu": 0.5376862985576025,
+            "Pct_realism": 0.6703282054016584,
+            "Pct_novelty": 0.4623137014423975,
+            "run_id": 9
+          },
+          {
+            "Pct_discarded_sillywalks": 0.3271720522148513,
+            "Pct_discarded_tabu": 0.5397496255082388,
+            "Pct_realism": 0.6728279477851487,
+            "Pct_novelty": 0.4602503744917612,
+            "run_id": 10
+          }
+        ],
+        "ecfp2": [
+          {
+            "Pct_discarded_sillywalks": 0.30156887100693974,
+            "Pct_discarded_tabu": 0.5640914859719709,
+            "Pct_realism": 0.6984311289930603,
+            "Pct_novelty": 0.4359085140280291,
+            "run_id": 1
+          },
+          {
+            "Pct_discarded_sillywalks": 0.31356361021598445,
+            "Pct_discarded_tabu": 0.553942848011931,
+            "Pct_realism": 0.6864363897840156,
+            "Pct_novelty": 0.44605715198806895,
+            "run_id": 2
+          },
+          {
+            "Pct_discarded_sillywalks": 0.3207701437425821,
+            "Pct_discarded_tabu": 0.5480152973757089,
+            "Pct_realism": 0.6792298562574179,
+            "Pct_novelty": 0.45198470262429113,
+            "run_id": 3
+          },
+          {
+            "Pct_discarded_sillywalks": 0.31973040835205496,
+            "Pct_discarded_tabu": 0.5487775868904453,
+            "Pct_realism": 0.6802695916479451,
+            "Pct_novelty": 0.4512224131095547,
+            "run_id": 4
+          },
+          {
+            "Pct_discarded_sillywalks": 0.31385101652693326,
+            "Pct_discarded_tabu": 0.5528888650791525,
+            "Pct_realism": 0.6861489834730667,
+            "Pct_novelty": 0.44711113492084753,
+            "run_id": 5
+          },
+          {
+            "Pct_discarded_sillywalks": 0.30219202458950095,
+            "Pct_discarded_tabu": 0.5636711693494028,
+            "Pct_realism": 0.6978079754104991,
+            "Pct_novelty": 0.43632883065059724,
+            "run_id": 6
+          },
+          {
+            "Pct_discarded_sillywalks": 0.3234465137107183,
+            "Pct_discarded_tabu": 0.5455048336538209,
+            "Pct_realism": 0.6765534862892817,
+            "Pct_novelty": 0.45449516634617915,
+            "run_id": 7
+          },
+          {
+            "Pct_discarded_sillywalks": 0.2985542825968358,
+            "Pct_discarded_tabu": 0.5657392253136934,
+            "Pct_realism": 0.7014457174031642,
+            "Pct_novelty": 0.43426077468630664,
+            "run_id": 8
+          },
+          {
+            "Pct_discarded_sillywalks": 0.3145163431666711,
+            "Pct_discarded_tabu": 0.5533841374366055,
+            "Pct_realism": 0.6854836568333289,
+            "Pct_novelty": 0.4466158625633945,
+            "run_id": 9
+          },
+          {
+            "Pct_discarded_sillywalks": 0.3136212097158279,
+            "Pct_discarded_tabu": 0.5547441392813675,
+            "Pct_realism": 0.686378790284172,
+            "Pct_novelty": 0.44525586071863255,
+            "run_id": 10
+          }
+        ]
+      },
+      "greedy_param_0.1": {
+        "ecfp0": [
+          {
+            "Pct_discarded_sillywalks": 0.3232462538124917,
+            "Pct_discarded_tabu": 0.544808380851346,
+            "Pct_realism": 0.6767537461875083,
+            "Pct_novelty": 0.455191619148654,
+            "run_id": 1
+          },
+          {
+            "Pct_discarded_sillywalks": 0.33347520749095555,
+            "Pct_discarded_tabu": 0.5341828048520962,
+            "Pct_realism": 0.6665247925090445,
+            "Pct_novelty": 0.46581719514790376,
+            "run_id": 2
+          },
+          {
+            "Pct_discarded_sillywalks": 0.32250864251299777,
+            "Pct_discarded_tabu": 0.5420693034270626,
+            "Pct_realism": 0.6774913574870023,
+            "Pct_novelty": 0.4579306965729374,
+            "run_id": 3
+          },
+          {
+            "Pct_discarded_sillywalks": 0.32346455845971817,
+            "Pct_discarded_tabu": 0.542755727654082,
+            "Pct_realism": 0.6765354415402818,
+            "Pct_novelty": 0.457244272345918,
+            "run_id": 4
+          },
+          {
+            "Pct_discarded_sillywalks": 0.326231477773328,
+            "Pct_discarded_tabu": 0.5409424642904819,
+            "Pct_realism": 0.673768522226672,
+            "Pct_novelty": 0.4590575357095181,
+            "run_id": 5
+          },
+          {
+            "Pct_discarded_sillywalks": 0.3331829161468426,
+            "Pct_discarded_tabu": 0.5347596421840576,
+            "Pct_realism": 0.6668170838531574,
+            "Pct_novelty": 0.4652403578159424,
+            "run_id": 6
+          },
+          {
+            "Pct_discarded_sillywalks": 0.34657077340004167,
+            "Pct_discarded_tabu": 0.5237909109860329,
+            "Pct_realism": 0.6534292265999584,
+            "Pct_novelty": 0.4762090890139671,
+            "run_id": 7
+          },
+          {
+            "Pct_discarded_sillywalks": 0.33871477482222806,
+            "Pct_discarded_tabu": 0.530260732156966,
+            "Pct_realism": 0.6612852251777719,
+            "Pct_novelty": 0.469739267843034,
+            "run_id": 8
+          },
+          {
+            "Pct_discarded_sillywalks": 0.32087462300732444,
+            "Pct_discarded_tabu": 0.5451583369237397,
+            "Pct_realism": 0.6791253769926755,
+            "Pct_novelty": 0.4548416630762603,
+            "run_id": 9
+          },
+          {
+            "Pct_discarded_sillywalks": 0.3137329389737606,
+            "Pct_discarded_tabu": 0.5512712669253521,
+            "Pct_realism": 0.6862670610262394,
+            "Pct_novelty": 0.4487287330746479,
+            "run_id": 10
+          }
+        ],
+        "ecfp2": [
+          {
+            "Pct_discarded_sillywalks": 0.29712503761249554,
+            "Pct_discarded_tabu": 0.5667861148343682,
+            "Pct_realism": 0.7028749623875045,
+            "Pct_novelty": 0.43321388516563175,
+            "run_id": 1
+          },
+          {
+            "Pct_discarded_sillywalks": 0.30411429506230064,
+            "Pct_discarded_tabu": 0.5602421135861712,
+            "Pct_realism": 0.6958857049376994,
+            "Pct_novelty": 0.43975788641382885,
+            "run_id": 2
+          },
+          {
+            "Pct_discarded_sillywalks": 0.31769404872853146,
+            "Pct_discarded_tabu": 0.5498335774197843,
+            "Pct_realism": 0.6823059512714685,
+            "Pct_novelty": 0.45016642258021566,
+            "run_id": 3
+          },
+          {
+            "Pct_discarded_sillywalks": 0.305215554592721,
+            "Pct_discarded_tabu": 0.5600628249566725,
+            "Pct_realism": 0.694784445407279,
+            "Pct_novelty": 0.4399371750433275,
+            "run_id": 4
+          },
+          {
+            "Pct_discarded_sillywalks": 0.3105164066702528,
+            "Pct_discarded_tabu": 0.5556750941366326,
+            "Pct_realism": 0.6894835933297472,
+            "Pct_novelty": 0.44432490586336737,
+            "run_id": 5
+          },
+          {
+            "Pct_discarded_sillywalks": 0.3051811516066422,
+            "Pct_discarded_tabu": 0.560707353892603,
+            "Pct_realism": 0.6948188483933577,
+            "Pct_novelty": 0.43929264610739704,
+            "run_id": 6
+          },
+          {
+            "Pct_discarded_sillywalks": 0.31506483090495924,
+            "Pct_discarded_tabu": 0.551931559951878,
+            "Pct_realism": 0.6849351690950407,
+            "Pct_novelty": 0.44806844004812196,
+            "run_id": 7
+          },
+          {
+            "Pct_discarded_sillywalks": 0.3102857295878746,
+            "Pct_discarded_tabu": 0.5564898374528024,
+            "Pct_realism": 0.6897142704121254,
+            "Pct_novelty": 0.44351016254719755,
+            "run_id": 8
+          },
+          {
+            "Pct_discarded_sillywalks": 0.3127652715843765,
+            "Pct_discarded_tabu": 0.5535915757803685,
+            "Pct_realism": 0.6872347284156235,
+            "Pct_novelty": 0.44640842421963145,
+            "run_id": 9
+          },
+          {
+            "Pct_discarded_sillywalks": 0.29369517543859647,
+            "Pct_discarded_tabu": 0.5699287280701755,
+            "Pct_realism": 0.7063048245614035,
+            "Pct_novelty": 0.43007127192982453,
+            "run_id": 10
+          }
+        ]
+      }
+    },
+    "power_law": {
+      "power_law_param_0.25": {
+        "ecfp0": [
+          {
+            "Pct_discarded_sillywalks": 0.33087032247849263,
+            "Pct_discarded_tabu": 0.5378424024911596,
+            "Pct_realism": 0.6691296775215074,
+            "Pct_novelty": 0.46215759750884045,
+            "run_id": 1
+          },
+          {
+            "Pct_discarded_sillywalks": 0.3308100929614874,
+            "Pct_discarded_tabu": 0.5370517928286852,
+            "Pct_realism": 0.6691899070385126,
+            "Pct_novelty": 0.4629482071713148,
+            "run_id": 2
+          },
+          {
+            "Pct_discarded_sillywalks": 0.32989745780816065,
+            "Pct_discarded_tabu": 0.5372516556291391,
+            "Pct_realism": 0.6701025421918394,
+            "Pct_novelty": 0.4627483443708609,
+            "run_id": 3
+          },
+          {
+            "Pct_discarded_sillywalks": 0.32347256523139695,
+            "Pct_discarded_tabu": 0.542977558251906,
+            "Pct_realism": 0.676527434768603,
+            "Pct_novelty": 0.45702244174809403,
+            "run_id": 4
+          },
+          {
+            "Pct_discarded_sillywalks": 0.33324486437709006,
+            "Pct_discarded_tabu": 0.5347152184298529,
+            "Pct_realism": 0.66675513562291,
+            "Pct_novelty": 0.4652847815701471,
+            "run_id": 5
+          },
+          {
+            "Pct_discarded_sillywalks": 0.3336135557598844,
+            "Pct_discarded_tabu": 0.5356889531065283,
+            "Pct_realism": 0.6663864442401156,
+            "Pct_novelty": 0.4643110468934717,
+            "run_id": 6
+          },
+          {
+            "Pct_discarded_sillywalks": 0.3351977520941576,
+            "Pct_discarded_tabu": 0.5329233379281094,
+            "Pct_realism": 0.6648022479058424,
+            "Pct_novelty": 0.4670766620718906,
+            "run_id": 7
+          },
+          {
+            "Pct_discarded_sillywalks": 0.32670927547129275,
+            "Pct_discarded_tabu": 0.5396906385949837,
+            "Pct_realism": 0.6732907245287072,
+            "Pct_novelty": 0.4603093614050163,
+            "run_id": 8
+          },
+          {
+            "Pct_discarded_sillywalks": 0.3317884477872825,
+            "Pct_discarded_tabu": 0.5364548849280966,
+            "Pct_realism": 0.6682115522127174,
+            "Pct_novelty": 0.46354511507190344,
+            "run_id": 9
+          },
+          {
+            "Pct_discarded_sillywalks": 0.32393764680760195,
+            "Pct_discarded_tabu": 0.5432682041426437,
+            "Pct_realism": 0.676062353192398,
+            "Pct_novelty": 0.45673179585735635,
+            "run_id": 10
+          }
+        ],
+        "ecfp2": [
+          {
+            "Pct_discarded_sillywalks": 0.29759790123794166,
+            "Pct_discarded_tabu": 0.566447134697893,
+            "Pct_realism": 0.7024020987620583,
+            "Pct_novelty": 0.433552865302107,
+            "run_id": 1
+          },
+          {
+            "Pct_discarded_sillywalks": 0.3105526556530162,
+            "Pct_discarded_tabu": 0.5555884410482699,
+            "Pct_realism": 0.6894473443469837,
+            "Pct_novelty": 0.4444115589517301,
+            "run_id": 2
+          },
+          {
+            "Pct_discarded_sillywalks": 0.3216317286421574,
+            "Pct_discarded_tabu": 0.5473506794480143,
+            "Pct_realism": 0.6783682713578426,
+            "Pct_novelty": 0.4526493205519857,
+            "run_id": 3
+          },
+          {
+            "Pct_discarded_sillywalks": 0.3063980280784482,
+            "Pct_discarded_tabu": 0.5603097202872147,
+            "Pct_realism": 0.6936019719215518,
+            "Pct_novelty": 0.4396902797127853,
+            "run_id": 4
+          },
+          {
+            "Pct_discarded_sillywalks": 0.3065310318705698,
+            "Pct_discarded_tabu": 0.5588712731995021,
+            "Pct_realism": 0.6934689681294302,
+            "Pct_novelty": 0.44112872680049786,
+            "run_id": 5
+          },
+          {
+            "Pct_discarded_sillywalks": 0.3014691904516199,
+            "Pct_discarded_tabu": 0.5634250332672515,
+            "Pct_realism": 0.6985308095483801,
+            "Pct_novelty": 0.43657496673274854,
+            "run_id": 6
+          },
+          {
+            "Pct_discarded_sillywalks": 0.30727944547832886,
+            "Pct_discarded_tabu": 0.5585403349785582,
+            "Pct_realism": 0.6927205545216711,
+            "Pct_novelty": 0.44145966502144185,
+            "run_id": 7
+          },
+          {
+            "Pct_discarded_sillywalks": 0.31114571865853985,
+            "Pct_discarded_tabu": 0.5552721316757512,
+            "Pct_realism": 0.6888542813414602,
+            "Pct_novelty": 0.4447278683242488,
+            "run_id": 8
+          },
+          {
+            "Pct_discarded_sillywalks": 0.3057323116081341,
+            "Pct_discarded_tabu": 0.5595570117245674,
+            "Pct_realism": 0.6942676883918659,
+            "Pct_novelty": 0.4404429882754326,
+            "run_id": 9
+          },
+          {
+            "Pct_discarded_sillywalks": 0.30953905249679897,
+            "Pct_discarded_tabu": 0.5577518139137857,
+            "Pct_realism": 0.6904609475032011,
+            "Pct_novelty": 0.4422481860862143,
+            "run_id": 10
+          }
+        ]
+      },
+      "power_law_param_0.3": {
+        "ecfp0": [
+          {
+            "Pct_discarded_sillywalks": 0.3404422552923915,
+            "Pct_discarded_tabu": 0.5292129532592748,
+            "Pct_realism": 0.6595577447076084,
+            "Pct_novelty": 0.47078704674072525,
+            "run_id": 1
+          },
+          {
+            "Pct_discarded_sillywalks": 0.3131054751278981,
+            "Pct_discarded_tabu": 0.5515130075106128,
+            "Pct_realism": 0.6868945248721019,
+            "Pct_novelty": 0.44848699248938717,
+            "run_id": 2
+          },
+          {
+            "Pct_discarded_sillywalks": 0.32698989683006363,
+            "Pct_discarded_tabu": 0.5400384882664243,
+            "Pct_realism": 0.6730101031699364,
+            "Pct_novelty": 0.4599615117335757,
+            "run_id": 3
+          },
+          {
+            "Pct_discarded_sillywalks": 0.3376944094157209,
+            "Pct_discarded_tabu": 0.5316046658259773,
+            "Pct_realism": 0.6623055905842792,
+            "Pct_novelty": 0.4683953341740227,
+            "run_id": 4
+          },
+          {
+            "Pct_discarded_sillywalks": 0.3277415593364075,
+            "Pct_discarded_tabu": 0.5404144803095352,
+            "Pct_realism": 0.6722584406635925,
+            "Pct_novelty": 0.4595855196904648,
+            "run_id": 5
+          },
+          {
+            "Pct_discarded_sillywalks": 0.3139124969256415,
+            "Pct_discarded_tabu": 0.5501325390101932,
+            "Pct_realism": 0.6860875030743585,
+            "Pct_novelty": 0.4498674609898068,
+            "run_id": 6
+          },
+          {
+            "Pct_discarded_sillywalks": 0.33444621091679916,
+            "Pct_discarded_tabu": 0.5337307896131426,
+            "Pct_realism": 0.6655537890832008,
+            "Pct_novelty": 0.4662692103868574,
+            "run_id": 7
+          },
+          {
+            "Pct_discarded_sillywalks": 0.3214382046717376,
+            "Pct_discarded_tabu": 0.5443707180234126,
+            "Pct_realism": 0.6785617953282623,
+            "Pct_novelty": 0.45562928197658736,
+            "run_id": 8
+          },
+          {
+            "Pct_discarded_sillywalks": 0.3151663272233537,
+            "Pct_discarded_tabu": 0.549735234215886,
+            "Pct_realism": 0.6848336727766463,
+            "Pct_novelty": 0.450264765784114,
+            "run_id": 9
+          },
+          {
+            "Pct_discarded_sillywalks": 0.3580997552791584,
+            "Pct_discarded_tabu": 0.5163862048086384,
+            "Pct_realism": 0.6419002447208416,
+            "Pct_novelty": 0.4836137951913616,
+            "run_id": 10
+          }
+        ],
+        "ecfp2": [
+          {
+            "Pct_discarded_sillywalks": 0.3009268067295409,
+            "Pct_discarded_tabu": 0.5638572554562009,
+            "Pct_realism": 0.699073193270459,
+            "Pct_novelty": 0.4361427445437991,
+            "run_id": 1
+          },
+          {
+            "Pct_discarded_sillywalks": 0.3115218564490016,
+            "Pct_discarded_tabu": 0.554236373448462,
+            "Pct_realism": 0.6884781435509983,
+            "Pct_novelty": 0.445763626551538,
+            "run_id": 2
+          },
+          {
+            "Pct_discarded_sillywalks": 0.320228734810579,
+            "Pct_discarded_tabu": 0.5480634315516374,
+            "Pct_realism": 0.679771265189421,
+            "Pct_novelty": 0.4519365684483626,
+            "run_id": 3
+          },
+          {
+            "Pct_discarded_sillywalks": 0.30702389572773353,
+            "Pct_discarded_tabu": 0.5595515863437659,
+            "Pct_realism": 0.6929761042722664,
+            "Pct_novelty": 0.4404484136562341,
+            "run_id": 4
+          },
+          {
+            "Pct_discarded_sillywalks": 0.2927827072449346,
+            "Pct_discarded_tabu": 0.5696989800149266,
+            "Pct_realism": 0.7072172927550654,
+            "Pct_novelty": 0.4303010199850734,
+            "run_id": 5
+          },
+          {
+            "Pct_discarded_sillywalks": 0.3123496391339214,
+            "Pct_discarded_tabu": 0.5546645282010157,
+            "Pct_realism": 0.6876503608660787,
+            "Pct_novelty": 0.44533547179898425,
+            "run_id": 6
+          },
+          {
+            "Pct_discarded_sillywalks": 0.30396834001951645,
+            "Pct_discarded_tabu": 0.5611785753008782,
+            "Pct_realism": 0.6960316599804836,
+            "Pct_novelty": 0.4388214246991218,
+            "run_id": 7
+          },
+          {
+            "Pct_discarded_sillywalks": 0.31081874466268145,
+            "Pct_discarded_tabu": 0.5564154568744663,
+            "Pct_realism": 0.6891812553373186,
+            "Pct_novelty": 0.44358454312553375,
+            "run_id": 8
+          },
+          {
+            "Pct_discarded_sillywalks": 0.3253078046744574,
+            "Pct_discarded_tabu": 0.5449186143572621,
+            "Pct_realism": 0.6746921953255426,
+            "Pct_novelty": 0.4550813856427379,
+            "run_id": 9
+          },
+          {
+            "Pct_discarded_sillywalks": 0.304136449100188,
+            "Pct_discarded_tabu": 0.5622347569164652,
+            "Pct_realism": 0.695863550899812,
+            "Pct_novelty": 0.4377652430835348,
+            "run_id": 10
+          }
+        ]
+      },
+      "power_law_param_0.35": {
+        "ecfp0": [
+          {
+            "Pct_discarded_sillywalks": 0.3232462538124917,
+            "Pct_discarded_tabu": 0.544808380851346,
+            "Pct_realism": 0.6767537461875083,
+            "Pct_novelty": 0.455191619148654,
+            "run_id": 1
+          },
+          {
+            "Pct_discarded_sillywalks": 0.32354998385881845,
+            "Pct_discarded_tabu": 0.5426127192510491,
+            "Pct_realism": 0.6764500161411815,
+            "Pct_novelty": 0.45738728074895085,
+            "run_id": 2
+          },
+          {
+            "Pct_discarded_sillywalks": 0.3360599503931606,
+            "Pct_discarded_tabu": 0.5326666314845111,
+            "Pct_realism": 0.6639400496068394,
+            "Pct_novelty": 0.4673333685154889,
+            "run_id": 3
+          },
+          {
+            "Pct_discarded_sillywalks": 0.30511190936722854,
+            "Pct_discarded_tabu": 0.5574191765681127,
+            "Pct_realism": 0.6948880906327715,
+            "Pct_novelty": 0.4425808234318873,
+            "run_id": 4
+          },
+          {
+            "Pct_discarded_sillywalks": 0.326231477773328,
+            "Pct_discarded_tabu": 0.5409424642904819,
+            "Pct_realism": 0.673768522226672,
+            "Pct_novelty": 0.4590575357095181,
+            "run_id": 5
+          },
+          {
+            "Pct_discarded_sillywalks": 0.3380952380952381,
+            "Pct_discarded_tabu": 0.5317373103087388,
+            "Pct_realism": 0.6619047619047619,
+            "Pct_novelty": 0.46826268969126117,
+            "run_id": 6
+          },
+          {
+            "Pct_discarded_sillywalks": 0.3351029942662986,
+            "Pct_discarded_tabu": 0.5328360586111701,
+            "Pct_realism": 0.6648970057337014,
+            "Pct_novelty": 0.4671639413888299,
+            "run_id": 7
+          },
+          {
+            "Pct_discarded_sillywalks": 0.3204648785343413,
+            "Pct_discarded_tabu": 0.5456942239918215,
+            "Pct_realism": 0.6795351214656586,
+            "Pct_novelty": 0.45430577600817845,
+            "run_id": 8
+          },
+          {
+            "Pct_discarded_sillywalks": 0.319396238598757,
+            "Pct_discarded_tabu": 0.5467484596550704,
+            "Pct_realism": 0.680603761401243,
+            "Pct_novelty": 0.45325154034492965,
+            "run_id": 9
+          },
+          {
+            "Pct_discarded_sillywalks": 0.3113088718510405,
+            "Pct_discarded_tabu": 0.5524644030668127,
+            "Pct_realism": 0.6886911281489595,
+            "Pct_novelty": 0.44753559693318734,
+            "run_id": 10
+          }
+        ],
+        "ecfp2": [
+          {
+            "Pct_discarded_sillywalks": 0.29712503761249554,
+            "Pct_discarded_tabu": 0.5667861148343682,
+            "Pct_realism": 0.7028749623875045,
+            "Pct_novelty": 0.43321388516563175,
+            "run_id": 1
+          },
+          {
+            "Pct_discarded_sillywalks": 0.3134638196915777,
+            "Pct_discarded_tabu": 0.5524102232287286,
+            "Pct_realism": 0.6865361803084222,
+            "Pct_novelty": 0.44758977677127143,
+            "run_id": 2
+          },
+          {
+            "Pct_discarded_sillywalks": 0.3193526023890785,
+            "Pct_discarded_tabu": 0.547994880546075,
+            "Pct_realism": 0.6806473976109215,
+            "Pct_novelty": 0.45200511945392496,
+            "run_id": 3
+          },
+          {
+            "Pct_discarded_sillywalks": 0.2963134519495382,
+            "Pct_discarded_tabu": 0.5681316585379145,
+            "Pct_realism": 0.7036865480504618,
+            "Pct_novelty": 0.4318683414620855,
+            "run_id": 4
+          },
+          {
+            "Pct_discarded_sillywalks": 0.3105164066702528,
+            "Pct_discarded_tabu": 0.5556750941366326,
+            "Pct_realism": 0.6894835933297472,
+            "Pct_novelty": 0.44432490586336737,
+            "run_id": 5
+          },
+          {
+            "Pct_discarded_sillywalks": 0.3097788063075184,
+            "Pct_discarded_tabu": 0.5563478822453043,
+            "Pct_realism": 0.6902211936924816,
+            "Pct_novelty": 0.4436521177546957,
+            "run_id": 6
+          },
+          {
+            "Pct_discarded_sillywalks": 0.30004381400952956,
+            "Pct_discarded_tabu": 0.563722000109535,
+            "Pct_realism": 0.6999561859904704,
+            "Pct_novelty": 0.436277999890465,
+            "run_id": 7
+          },
+          {
+            "Pct_discarded_sillywalks": 0.30457017615066156,
+            "Pct_discarded_tabu": 0.5608139188786969,
+            "Pct_realism": 0.6954298238493384,
+            "Pct_novelty": 0.4391860811213031,
+            "run_id": 8
+          },
+          {
+            "Pct_discarded_sillywalks": 0.3253078046744574,
+            "Pct_discarded_tabu": 0.5449186143572621,
+            "Pct_realism": 0.6746921953255426,
+            "Pct_novelty": 0.4550813856427379,
+            "run_id": 9
+          },
+          {
+            "Pct_discarded_sillywalks": 0.3035834841079096,
+            "Pct_discarded_tabu": 0.5620696173476276,
+            "Pct_realism": 0.6964165158920904,
+            "Pct_novelty": 0.4379303826523724,
+            "run_id": 10
+          }
+        ]
+      },
+      "power_law_param_0.4": {
+        "ecfp0": [
+          {
+            "Pct_discarded_sillywalks": 0.33048705876093953,
+            "Pct_discarded_tabu": 0.5371744739712181,
+            "Pct_realism": 0.6695129412390605,
+            "Pct_novelty": 0.4628255260287819,
+            "run_id": 1
+          },
+          {
+            "Pct_discarded_sillywalks": 0.3201780415430267,
+            "Pct_discarded_tabu": 0.5456164014027516,
+            "Pct_realism": 0.6798219584569734,
+            "Pct_novelty": 0.4543835985972484,
+            "run_id": 2
+          },
+          {
+            "Pct_discarded_sillywalks": 0.31655514317449135,
+            "Pct_discarded_tabu": 0.5486684907756075,
+            "Pct_realism": 0.6834448568255087,
+            "Pct_novelty": 0.45133150922439247,
+            "run_id": 3
+          },
+          {
+            "Pct_discarded_sillywalks": 0.3252133186186105,
+            "Pct_discarded_tabu": 0.540873731528088,
+            "Pct_realism": 0.6747866813813894,
+            "Pct_novelty": 0.45912626847191196,
+            "run_id": 4
+          },
+          {
+            "Pct_discarded_sillywalks": 0.326231477773328,
+            "Pct_discarded_tabu": 0.5409424642904819,
+            "Pct_realism": 0.673768522226672,
+            "Pct_novelty": 0.4590575357095181,
+            "run_id": 5
+          },
+          {
+            "Pct_discarded_sillywalks": 0.34206210792097247,
+            "Pct_discarded_tabu": 0.5284379311242419,
+            "Pct_realism": 0.6579378920790275,
+            "Pct_novelty": 0.47156206887575813,
+            "run_id": 6
+          },
+          {
+            "Pct_discarded_sillywalks": 0.3197092565973258,
+            "Pct_discarded_tabu": 0.5453608527026661,
+            "Pct_realism": 0.6802907434026741,
+            "Pct_novelty": 0.4546391472973339,
+            "run_id": 7
+          },
+          {
+            "Pct_discarded_sillywalks": 0.33103557562792174,
+            "Pct_discarded_tabu": 0.5375696590338853,
+            "Pct_realism": 0.6689644243720783,
+            "Pct_novelty": 0.4624303409661147,
+            "run_id": 8
+          },
+          {
+            "Pct_discarded_sillywalks": 0.32700150246834087,
+            "Pct_discarded_tabu": 0.5395202833226014,
+            "Pct_realism": 0.6729984975316592,
+            "Pct_novelty": 0.4604797166773986,
+            "run_id": 9
+          },
+          {
+            "Pct_discarded_sillywalks": 0.35357728577285774,
+            "Pct_discarded_tabu": 0.5189370643706437,
+            "Pct_realism": 0.6464227142271423,
+            "Pct_novelty": 0.4810629356293563,
+            "run_id": 10
+          }
+        ],
+        "ecfp2": [
+          {
+            "Pct_discarded_sillywalks": 0.3067829091203541,
+            "Pct_discarded_tabu": 0.558935463845178,
+            "Pct_realism": 0.6932170908796459,
+            "Pct_novelty": 0.441064536154822,
+            "run_id": 1
+          },
+          {
+            "Pct_discarded_sillywalks": 0.3021330872774642,
+            "Pct_discarded_tabu": 0.562852800694746,
+            "Pct_realism": 0.6978669127225359,
+            "Pct_novelty": 0.43714719930525403,
+            "run_id": 2
+          },
+          {
+            "Pct_discarded_sillywalks": 0.3392059236563258,
+            "Pct_discarded_tabu": 0.5337673943572067,
+            "Pct_realism": 0.6607940763436742,
+            "Pct_novelty": 0.46623260564279334,
+            "run_id": 3
+          },
+          {
+            "Pct_discarded_sillywalks": 0.2974343594078033,
+            "Pct_discarded_tabu": 0.5669220492406686,
+            "Pct_realism": 0.7025656405921967,
+            "Pct_novelty": 0.4330779507593314,
+            "run_id": 4
+          },
+          {
+            "Pct_discarded_sillywalks": 0.3105164066702528,
+            "Pct_discarded_tabu": 0.5556750941366326,
+            "Pct_realism": 0.6894835933297472,
+            "Pct_novelty": 0.44432490586336737,
+            "run_id": 5
+          },
+          {
+            "Pct_discarded_sillywalks": 0.29881972779801186,
+            "Pct_discarded_tabu": 0.5650245091327327,
+            "Pct_realism": 0.7011802722019882,
+            "Pct_novelty": 0.4349754908672673,
+            "run_id": 6
+          },
+          {
+            "Pct_discarded_sillywalks": 0.30684924092766486,
+            "Pct_discarded_tabu": 0.5585202825210402,
+            "Pct_realism": 0.6931507590723351,
+            "Pct_novelty": 0.44147971747895975,
+            "run_id": 7
+          },
+          {
+            "Pct_discarded_sillywalks": 0.3109548167092924,
+            "Pct_discarded_tabu": 0.5565057544757033,
+            "Pct_realism": 0.6890451832907076,
+            "Pct_novelty": 0.4434942455242967,
+            "run_id": 8
+          },
+          {
+            "Pct_discarded_sillywalks": 0.3127652715843765,
+            "Pct_discarded_tabu": 0.5535915757803685,
+            "Pct_realism": 0.6872347284156235,
+            "Pct_novelty": 0.44640842421963145,
+            "run_id": 9
+          },
+          {
+            "Pct_discarded_sillywalks": 0.30813422818791947,
+            "Pct_discarded_tabu": 0.5583087248322147,
+            "Pct_realism": 0.6918657718120805,
+            "Pct_novelty": 0.4416912751677853,
+            "run_id": 10
+          }
+        ]
+      }
+    },
+    "constant": {
+      "constant_param_0.3": {
+        "ecfp0": [
+          {
+            "Pct_discarded_sillywalks": 0.32550575168583895,
+            "Pct_discarded_tabu": 0.5429326986645511,
+            "Pct_realism": 0.674494248314161,
+            "Pct_novelty": 0.45706730133544893,
+            "run_id": 1
+          },
+          {
+            "Pct_discarded_sillywalks": 0.3527104959630911,
+            "Pct_discarded_tabu": 0.5197744457260028,
+            "Pct_realism": 0.6472895040369089,
+            "Pct_novelty": 0.48022555427399716,
+            "run_id": 2
+          },
+          {
+            "Pct_discarded_sillywalks": 0.3296808765896185,
+            "Pct_discarded_tabu": 0.5376842891039484,
+            "Pct_realism": 0.6703191234103816,
+            "Pct_novelty": 0.4623157108960516,
+            "run_id": 3
+          },
+          {
+            "Pct_discarded_sillywalks": 0.32747140632551147,
+            "Pct_discarded_tabu": 0.5389572034580895,
+            "Pct_realism": 0.6725285936744885,
+            "Pct_novelty": 0.4610427965419105,
+            "run_id": 4
+          },
+          {
+            "Pct_discarded_sillywalks": 0.3104206838488906,
+            "Pct_discarded_tabu": 0.554466201352489,
+            "Pct_realism": 0.6895793161511095,
+            "Pct_novelty": 0.44553379864751097,
+            "run_id": 5
+          },
+          {
+            "Pct_discarded_sillywalks": 0.3307208359991469,
+            "Pct_discarded_tabu": 0.5366549370867989,
+            "Pct_realism": 0.6692791640008531,
+            "Pct_novelty": 0.4633450629132011,
+            "run_id": 6
+          },
+          {
+            "Pct_discarded_sillywalks": 0.33737567150683473,
+            "Pct_discarded_tabu": 0.5303175363012606,
+            "Pct_realism": 0.6626243284931652,
+            "Pct_novelty": 0.46968246369873945,
+            "run_id": 7
+          },
+          {
+            "Pct_discarded_sillywalks": 0.32980425622699877,
+            "Pct_discarded_tabu": 0.5375220011733959,
+            "Pct_realism": 0.6701957437730013,
+            "Pct_novelty": 0.4624779988266041,
+            "run_id": 8
+          },
+          {
+            "Pct_discarded_sillywalks": 0.337404660183996,
+            "Pct_discarded_tabu": 0.5321993028071187,
+            "Pct_realism": 0.662595339816004,
+            "Pct_novelty": 0.4678006971928813,
+            "run_id": 9
+          },
+          {
+            "Pct_discarded_sillywalks": 0.32997494535956073,
+            "Pct_discarded_tabu": 0.5374220374220374,
+            "Pct_realism": 0.6700250546404393,
+            "Pct_novelty": 0.4625779625779626,
+            "run_id": 10
+          }
+        ],
+        "ecfp2": [
+          {
+            "Pct_discarded_sillywalks": 0.31372757758024167,
+            "Pct_discarded_tabu": 0.5539468781604301,
+            "Pct_realism": 0.6862724224197583,
+            "Pct_novelty": 0.4460531218395699,
+            "run_id": 1
+          },
+          {
+            "Pct_discarded_sillywalks": 0.31479214350348644,
+            "Pct_discarded_tabu": 0.5528024697929419,
+            "Pct_realism": 0.6852078564965136,
+            "Pct_novelty": 0.4471975302070581,
+            "run_id": 2
+          },
+          {
+            "Pct_discarded_sillywalks": 0.3042644556674859,
+            "Pct_discarded_tabu": 0.5613741323898777,
+            "Pct_realism": 0.6957355443325142,
+            "Pct_novelty": 0.43862586761012234,
+            "run_id": 3
+          },
+          {
+            "Pct_discarded_sillywalks": 0.31777227461931606,
+            "Pct_discarded_tabu": 0.5511618104220454,
+            "Pct_realism": 0.6822277253806839,
+            "Pct_novelty": 0.4488381895779546,
+            "run_id": 4
+          },
+          {
+            "Pct_discarded_sillywalks": 0.3042282664924174,
+            "Pct_discarded_tabu": 0.5603474094040132,
+            "Pct_realism": 0.6957717335075826,
+            "Pct_novelty": 0.4396525905959868,
+            "run_id": 5
+          },
+          {
+            "Pct_discarded_sillywalks": 0.30877751402675874,
+            "Pct_discarded_tabu": 0.55702416918429,
+            "Pct_realism": 0.6912224859732412,
+            "Pct_novelty": 0.44297583081571,
+            "run_id": 6
+          },
+          {
+            "Pct_discarded_sillywalks": 0.2951612017355962,
+            "Pct_discarded_tabu": 0.5682155215027187,
+            "Pct_realism": 0.7048387982644038,
+            "Pct_novelty": 0.4317844784972813,
+            "run_id": 7
+          },
+          {
+            "Pct_discarded_sillywalks": 0.32503617945007235,
+            "Pct_discarded_tabu": 0.5440599921063018,
+            "Pct_realism": 0.6749638205499277,
+            "Pct_novelty": 0.45594000789369815,
+            "run_id": 8
+          },
+          {
+            "Pct_discarded_sillywalks": 0.3161892071952032,
+            "Pct_discarded_tabu": 0.5512325116588941,
+            "Pct_realism": 0.6838107928047967,
+            "Pct_novelty": 0.4487674883411059,
+            "run_id": 9
+          },
+          {
+            "Pct_discarded_sillywalks": 0.3189892154789596,
+            "Pct_discarded_tabu": 0.5495083527172764,
+            "Pct_realism": 0.6810107845210405,
+            "Pct_novelty": 0.4504916472827236,
+            "run_id": 10
+          }
+        ]
+      }
+    }
+  }
+}

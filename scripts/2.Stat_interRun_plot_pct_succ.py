@@ -1,3 +1,22 @@
+########################################################################################
+# 2. Stat_interRun_plot_pct_succ.py                                                    # 
+########################################################################################
+# Script to compare Evomol and Evomol-RL algorithms across different configurations    #
+########################################################################################
+# - For each configuration:                                                            #
+#   . Calculates inter run ratios and complementary percentages for discarded features #  
+#   . Generates statistical summaries and visualizations                               #
+#   . Outputs results in structured JSON and CSV formats                               #
+#                                                                                      #   
+# - Select the best configuration over multiple runs based on realism percentage       #    
+# maximum mean                                                                         #
+# - Run Kruskal-Wallis test to compare realism percentages between Evomol and best     #
+# EvoMol-RL configuration                                                              #
+#                                                                                      #
+# Author : Gaëlle Milon-Harnois                                                        #
+# Date : June 2025                                                                     #
+########################################################################################
+
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
@@ -153,7 +172,6 @@ class AlgorithmAnalyzer:
                 result = stat_functions[stat](stacked_data, axis=2)
                 output_filename = f"{path}{stat}_{filename}"
                 save_function(result, headers, output_filename)
-                #print(f"✓ {stat.capitalize()} calculated and saved: {output_filename}")
             else:
                 print(f"⚠️ Statistic '{stat}' not recognized. Available: {list(stat_functions.keys())}")    
 
@@ -172,7 +190,6 @@ class AlgorithmAnalyzer:
         """
         j=1
         for df in all_data:
-            #print("run nb:", j," Steps.csv shape:",df.values.shape)
             j+=1
         # Stack all DataFrames in one to compute statistics
         return np.stack([df.values for df in all_data], axis=2)
@@ -193,11 +210,11 @@ class AlgorithmAnalyzer:
         
         for run_id in range(self.n_runs):
             # Generate dataframe for this run
-            df = self.load_dataframe(f"{file_path}run{run_id+1}/steps.csv")  
+            df = self.load_dataframe(f"{file_path}{precision}/run{run_id+1}/steps.csv")  
 
             # Headers keeping for graph purpose:
             if run_id==1: 
-                headers = pd.read_csv(f"{file_path}run{run_id+1}/steps.csv").columns
+                headers = pd.read_csv(f"{file_path}{precision}/run{run_id+1}/steps.csv").columns
             # Convert data from string to float
             df = df.apply(pd.to_numeric, errors='coerce')
             all_data.append(df)
@@ -212,7 +229,7 @@ class AlgorithmAnalyzer:
         
         # Stack all runs data for inter-run statistics calculation
         stacked_data = np.stack([df.values for df in all_data], axis=2)
-        self.analyze_and_save_statistics(stacked_data, headers, file_path, "steps.csv",
+        self.analyze_and_save_statistics(stacked_data, headers, f"{file_path}{precision}/", "steps.csv",
                                          stats=['sum', 'mean', 'std', 'median'], 
                                          save_function=None)
         return run_results
@@ -229,7 +246,7 @@ class AlgorithmAnalyzer:
         Returns:
             Nested dictionary with results organized by eps, method, and parameter
         """
-         # Initialising lists
+        # Initialising lists
         rl_results = {}
                        
         for eps in self.eps_values:
@@ -241,10 +258,9 @@ class AlgorithmAnalyzer:
                         param = eps
                     rl_results[f"eps_{eps}"][method][f"{method}_param_{param}"] = {}
                     for ecfp in self.ecfp_values:
-                        #print(f"Processing Evomol-RL: method={method}, param={param}, eps={eps}, ecfp={ecfp}")
                         all_data = [] # to keep nb_run files data   
                         run_results = []
-                        Complete_File_Path = f"{file_path}10run_stoch_ecfp{ecfp}_eps_{method}_{param}_epsmin_{eps}_random_alea_ql_steps500_depth1_C,N,O,F_sillyTh0{precision}/"
+                        Complete_File_Path = f"{file_path}10run_stoch_ecfp{ecfp}_eps_{method}_{param}_epsmin_{eps}_random_alea_ql_steps500_depth1_C,N,O,F{precision}/"
                         for run_id in range(self.n_runs):
                         # Generate dataframe for this configuration and run
                             df = self.load_dataframe(f"{Complete_File_Path}run{run_id+1}/steps.csv")  
@@ -296,11 +312,8 @@ class AlgorithmAnalyzer:
             if np.mean(values) > max_realism and metric == 'Pct_realism':
                 max_realism = np.mean(values)
                 max_path = [config]
-                #print(f"New Max realism found: {max_realism} in configuration {max_path}")
             elif np.mean(values) == max_realism:
                 max_path = max_path + config
-                #print(f"New configuration {max_path} added for Max realism: {max_realism}")
-            #print(f"{metric}: mean={stats[metric]['mean']}, std={stats[metric]['std']}")
         return stats, max_realism, max_path
     
     def save_results_to_file(self, results: Dict, filename: str):
@@ -372,15 +385,11 @@ class AlgorithmAnalyzer:
                 
         for ecfp in self.ecfp_values:
             for eps in self.eps_values:
-               # for config in self.methods_config:
-                    for metric in metrics:
-                    # Evomol-RL values for the target configuration
-                        #if method in evomol_rl_stats and param in evomol_rl_stats[method] and eps in evomol_rl_stats[method][param][eps] and ecfp in evomol_rl_stats[method][param][eps]:
-                        rl_mean = evomol_rl_stats[f"eps_{eps}"][method][f"{method}_param_{param}"][f"ecfp{ecfp}"][metric]['mean']
-                        rl_std = evomol_rl_stats[f"eps_{eps}"][method][f"{method}_param_{param}"][f"ecfp{ecfp}"][metric]['std']
-                        comparison_df.loc[eps, (metric, f"ecfp{ecfp}")] = f"{rl_mean:.4f} ± {rl_std:.4f}"
-                        #else:
-                        #    comparison_df.loc[eps, (metric, ecfpCl)] = "N/A"
+                for metric in metrics:
+                # Evomol-RL values for the target configuration
+                    rl_mean = evomol_rl_stats[f"eps_{eps}"][method][f"{method}_param_{param}"][f"ecfp{ecfp}"][metric]['mean']
+                    rl_std = evomol_rl_stats[f"eps_{eps}"][method][f"{method}_param_{param}"][f"ecfp{ecfp}"][metric]['std']
+                    comparison_df.loc[eps, (metric, f"ecfp{ecfp}")] = f"{rl_mean:.4f} ± {rl_std:.4f}"
         return comparison_df
     
     ################### Plot over steps ######################
@@ -435,9 +444,7 @@ class AlgorithmAnalyzer:
         rdm_mean, rdm_std, rdm_indices = calculate_sliding_stats(rdm_data, step_nb, x_min)
         ql0_mean, ql0_std, ql0_indices = calculate_sliding_stats(ql0_data, step_nb, x_min)
         ql2_mean, ql2_std, ql2_indices = calculate_sliding_stats(ql2_data, step_nb, x_min)
-        #print("rdm_mean:", rdm_mean," rdm_std:",rdm_std, " rdm_indices:", rdm_indices)
-        #print("ql0_mean:", ql0_mean," ql0_std:",ql0_std, " ql0_indices:", ql0_indices)
-        #print("ql2_mean:", ql2_mean," ql2_std:",ql2_std, " ql2_indices:", ql2_indices)
+
         #means plot
         plt.plot(rdm_indices, rdm_mean, color='firebrick', label="EvoMol")
         plt.plot(ql0_indices, ql0_mean, color='dodgerblue', label="ECFP0")
@@ -459,7 +466,6 @@ class AlgorithmAnalyzer:
         # Compute global means
         rdm_total_mean = np.array(rdm_data[1:]).mean()
         rdm_total_std = np.array(rdm_data[1:]).std()
-       # print("rdm_total_mean:", rdm_total_mean, "rdm_total_std:", rdm_total_std)
         ql0_total_mean = np.array(ql0_data[1:]).mean()
         ql0_total_std = np.array(ql0_data[1:]).std()
         ql2_total_mean = np.array(ql2_data[1:]).mean()
@@ -528,23 +534,19 @@ def main(target_eps = 0.1, target_method = "power_law", target_param = 0.35, ste
         "constant": [0.1]# Default parameter for constant method
     }
     # Initialize analyzer
-    analyzer = AlgorithmAnalyzer(methods_config, ecfp_values, eps_values, 10, "./examples/")
+    analyzer = AlgorithmAnalyzer(methods_config, ecfp_values, eps_values, 10, "./examples")
     max_realism = float('-inf') #to find max value of %realism
     max_path = []
     
-    #Rdm_Path = "/Silly_Random/10run_Random_steps500_depth1_C,N,O,F_RandomPop/" #generated from silly_random_script.py
-    #QL_Path = "./examples/Silly_Qlearning/" #generated from execution_script+sauvegarde_sortie_th0.py
-    #"/home/gaelle/EvoMol_ICTAI/examples/Silly_Qlearning/" #/home/gaelle/GGENOCOD/examples/ICTAI/" #analyzer.output_dir
-   
     print("Starting Evomol analysis...")
     # Run Evomol analysis
     evomol_results = analyzer.run_evomol_analysis(analyzer.output_dir+Rdm_Path, precision)
     evomol_stats, max_realism, max_path = analyzer.calculate_statistics(evomol_results, max_realism, max_path, ["Evomol"])
-    rdm_steps_reader = ImportData(analyzer.output_dir+Rdm_Path,"sum","EvoMol", 0.1)
+    rdm_steps_reader = ImportData(analyzer.output_dir+Rdm_Path+precision,"sum","EvoMol", 0.1)
 
     print("\nStarting Evomol-RL analysis...")
     # Run Evomol-RL analysis
-    evomol_rl_results = analyzer.run_evomol_rl_analysis(QL_Path, precision)#(analyzer.output_dir)#
+    evomol_rl_results = analyzer.run_evomol_rl_analysis(analyzer.output_dir+QL_Path, precision)
 
     # Calculate statistics for all Evomol-RL configurations
     evomol_rl_stats = {}
@@ -564,24 +566,15 @@ def main(target_eps = 0.1, target_method = "power_law", target_param = 0.35, ste
                                                                                                                                                            max_path, 
                                                                                                                                                            [eps, method, param, ecfp])
                     # Save intermediate results after each configuration
-                    analyzer.save_results_to_file(evomol_rl_stats, f"./examples/EvoMol_RL_Stat{precision}.json")#f"{method}{param}_eps{eps}_ecfp{ecfp}_stat.json")
-               
-                ql0_steps_reader_eps1 = ImportData(QL_Path+f"10run_stoch_ecfp0_eps_{method}_{param}_epsmin_{eps}_random_alea_ql_steps500_depth1_C,N,O,F_sillyTh0{precision}",
-               "sum","ecfp0", eps)
-                ql2_steps_reader_eps1 = ImportData(QL_Path+f"10run_stoch_ecfp2_eps_{method}_{param}_epsmin_{eps}_random_alea_ql_steps500_depth1_C,N,O,F_sillyTh0{precision}",
-                "sum","ecfp2", eps)
-    
-                analyzer.PlotOverSteps(ql0_steps_reader_eps1, ql2_steps_reader_eps1, rdm_steps_reader,'pct_realism',"Evolution of realism percent over steps","Steps" ,"Realism percent", stat, step_nb, f"{method}_{param}_eps{eps}_ecfp{ecfp}")                   
+                    analyzer.save_results_to_file(evomol_rl_stats, f"./examples/EvoMol_RL_Stat{precision}.json")
 
     print(f"\nMaximum realism percentage found: {max_realism} in configurations: {max_path[0][1]} with param {max_path[0][2]} and eps {max_path[0][0]}")
     
-    # Save results for best configuration
+    # Save results and plot for best configuration
     target_eps = max_path[0][0] if max_path else target_eps
     target_method = max_path[0][1] if max_path else target_method
     target_param = max_path[0][2] if max_path else target_param
-    #if (f"eps_{target_eps}" in evomol_rl_results and 
-    #    target_method in evomol_rl_results[target_eps][target_method] and 
-    #    f"{method}_param_{target_param}" in evomol_rl_results[target_eps][target_method]):
+
     if target_eps:    
         target_results = {
             'evomol': {
@@ -597,7 +590,17 @@ def main(target_eps = 0.1, target_method = "power_law", target_param = 0.35, ste
             }
         }
         analyzer.save_results_to_file(target_results, f"./examples/{target_method}{target_param}_eps{target_eps}_results.json")
+
+    # Plot realism percent over steps for best configuration
+    ql0_steps_reader_eps1 = ImportData(analyzer.output_dir+QL_Path+f"10run_stoch_ecfp0_eps_{target_method}_{target_param}_epsmin_{target_eps}_random_alea_ql_steps500_depth1_C,N,O,F{precision}",
+               "sum","ecfp0", target_eps)
+    ql2_steps_reader_eps1 = ImportData(analyzer.output_dir+QL_Path+f"10run_stoch_ecfp2_eps_{target_method}_{target_param}_epsmin_{target_eps}_random_alea_ql_steps500_depth1_C,N,O,F{precision}",
+                "sum","ecfp2", target_eps)
     
+    analyzer.PlotOverSteps(ql0_steps_reader_eps1, ql2_steps_reader_eps1, rdm_steps_reader,
+                           'pct_realism',"Evolution of realism percent over steps","Steps" ,"Realism percent", 
+                           stat, step_nb, f"{target_method}_{target_param}_eps{target_eps}")                   
+
     # Create final comparison table
     print("\nCreating comparison table on best configuration...")
     # Create a simplified version with only key metrics for final report
@@ -607,9 +610,8 @@ def main(target_eps = 0.1, target_method = "power_law", target_param = 0.35, ste
         (target_method, target_param, target_eps),
         metrics=['Pct_realism', 'Pct_novelty']
     )
-    # Save final simplified table
+    # Save final table
     final_table.to_csv(f"./examples/final_comparison_table{precision}.csv")
-    #print("Final comparison table saved to final_comparison_table.csv")
 
     # Display summary statistics
     print("\n" + "="*50)
@@ -632,7 +634,7 @@ def main(target_eps = 0.1, target_method = "power_law", target_param = 0.35, ste
     print(final_table)
     print("="*80)
 
-    #Run Kruskal-Wallis test on realism percent between Evomol and Evomol-RL best configuration
+    # Run Kruskal-Wallis test on realism percent between Evomol and Evomol-RL best configuration
     from scipy.stats import kruskal
     Realism_Evomol = [result['Pct_realism'] for result in evomol_results]
     Realism_ecfp0 = [result['Pct_realism'] for result in evomol_rl_results[f"eps_{target_eps}"][target_method][f"{target_method}_param_{target_param}"]["ecfp0"]]
@@ -642,9 +644,9 @@ def main(target_eps = 0.1, target_method = "power_law", target_param = 0.35, ste
     print("="*90)
     print(f"Statistic: {stat}, p-value: {p_value}")
     if p_value < 0.05:
-        print("The difference in realism percentages is statistically significant (p < 0.05).")
-        #if Kruskal-Wallis test significatn, run post-hoc test
-        #print("="*32)
+        if p_value < 0.001: print("The difference in realism percentages is statistically highly significant (p < 0.001).")
+        else: print("The difference in realism percentages is statistically significant (p < 0.05).")
+        # if Kruskal-Wallis test significant, run post-hoc test
         print(f"\nPost-hoc Wilcoxon tests results:")
         print("="*32)
         from scipy.stats import wilcoxon
@@ -664,7 +666,7 @@ if __name__ == "__main__":
          target_param = 0.35, 
          step_nb = 10, 
          stat = "sum", 
-         #precision ="",  
-         Rdm_Path = "/Silly_Random/10run_Random_steps500_depth1_C,N,O,F_RandomPop_250512/", #generated from silly_random_script.py,
-         QL_Path = "./examples/Silly_Qlearning/" #generated from execution_script+sauvegarde_sortie_th0.py
+         precision = "_sillyTh0_best_NopreselestedAct",  
+         Rdm_Path = "/Silly_Random/10run_Random_steps500_depth1_C,N,O,F",
+         QL_Path = "/Silly_Qlearning/"
    )

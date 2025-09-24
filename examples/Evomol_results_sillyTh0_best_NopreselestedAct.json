@@ -1,0 +1,72 @@
+[
+  {
+    "Pct_discarded_sillywalks": 0.46391155987468324,
+    "Pct_discarded_tabu": 0.4368128030650729,
+    "Pct_realism": 0.5360884401253168,
+    "Pct_novelty": 0.5631871969349271,
+    "run_id": 1
+  },
+  {
+    "Pct_discarded_sillywalks": 0.5054467429577465,
+    "Pct_discarded_tabu": 0.4033157276995305,
+    "Pct_realism": 0.4945532570422535,
+    "Pct_novelty": 0.5966842723004695,
+    "run_id": 2
+  },
+  {
+    "Pct_discarded_sillywalks": 0.4825517467543741,
+    "Pct_discarded_tabu": 0.42147803777079035,
+    "Pct_realism": 0.5174482532456259,
+    "Pct_novelty": 0.5785219622292097,
+    "run_id": 3
+  },
+  {
+    "Pct_discarded_sillywalks": 0.4808708272859216,
+    "Pct_discarded_tabu": 0.4228543783260764,
+    "Pct_realism": 0.5191291727140783,
+    "Pct_novelty": 0.5771456216739236,
+    "run_id": 4
+  },
+  {
+    "Pct_discarded_sillywalks": 0.5106768661856941,
+    "Pct_discarded_tabu": 0.39914077511510715,
+    "Pct_realism": 0.4893231338143059,
+    "Pct_novelty": 0.6008592248848929,
+    "run_id": 5
+  },
+  {
+    "Pct_discarded_sillywalks": 0.4940872689169972,
+    "Pct_discarded_tabu": 0.41282463887433574,
+    "Pct_realism": 0.5059127310830027,
+    "Pct_novelty": 0.5871753611256643,
+    "run_id": 6
+  },
+  {
+    "Pct_discarded_sillywalks": 0.4910498032092038,
+    "Pct_discarded_tabu": 0.4148122918558886,
+    "Pct_realism": 0.5089501967907962,
+    "Pct_novelty": 0.5851877081441115,
+    "run_id": 7
+  },
+  {
+    "Pct_discarded_sillywalks": 0.49276069017254315,
+    "Pct_discarded_tabu": 0.4139347336834209,
+    "Pct_realism": 0.5072393098274568,
+    "Pct_novelty": 0.5860652663165791,
+    "run_id": 8
+  },
+  {
+    "Pct_discarded_sillywalks": 0.49856946457102513,
+    "Pct_discarded_tabu": 0.4090030840114443,
+    "Pct_realism": 0.5014305354289749,
+    "Pct_novelty": 0.5909969159885557,
+    "run_id": 9
+  },
+  {
+    "Pct_discarded_sillywalks": 0.4882057121168991,
+    "Pct_discarded_tabu": 0.41738305342062815,
+    "Pct_realism": 0.5117942878831009,
+    "Pct_novelty": 0.5826169465793718,
+    "run_id": 10
+  }
+]

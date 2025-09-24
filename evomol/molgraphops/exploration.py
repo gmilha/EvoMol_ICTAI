@@ -124,7 +124,7 @@ class NeighbourGenerationStrategy(ABC):
     selected.
     """
 
-    def __init__(self, preselect_action_type=True):
+    def __init__(self, preselect_action_type=False):
         """
         :param preselect_action_type: whether to first select the action type and then select the actual valid
         perturbation of selected type (True), or whether to select the actual perturbation among all possible ones of
@@ -491,7 +491,7 @@ class StochasticQLearningActionSelectionStrategy(QLearningActionSelectionStrateg
 
     def __init__(self, depth, number_of_accepted_atoms, epsilon, ecfp, valid_ecfp_file_path=None,
                  init_weights_file_path=None, preselect_action_type=False, disable_updates=False,
-                 epsilon_min=0.2, epsilon_0=1, lambd=0.01, alpha=0.4, step=0, epsilon_method="power_law"):#, p0=0.2):preselect_action_type=True
+                 epsilon_min=0.2, epsilon_0=1, lambd=0.01, alpha=0.4, step=0, epsilon_method="power_law"):
         """
         :param depth: number of consecutive executed actions before evaluation
         :param number_of_accepted_atoms: number of accepted atoms in the molecule
@@ -720,7 +720,7 @@ class DeterministQLearningActionSelectionStrategy(QLearningActionSelectionStrate
     Selection of the action type according to a determinist Q-learning strategy.
     """
     def __init__(self, depth, number_of_accepted_atoms, alpha, epsilon, gamma, ecfp, valid_ecfp_file_path=None,
-                 init_weights_file_path=None, preselect_action_type=True, disable_updates=False):
+                 init_weights_file_path=None, preselect_action_type=False, disable_updates=False):
         """
         :param depth: number of consecutive executed actions before evaluation
         :param number_of_accepted_atoms: number of accepted atoms in the molecule
